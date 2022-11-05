@@ -1,0 +1,14 @@
+.section {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.heroSelect {
+    min-width: 200px;
+}
+
+.submit {
+    margin-left: 10px;
+}

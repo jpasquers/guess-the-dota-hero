@@ -1,0 +1,22 @@
+.guess {
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(40,40,40,1);
+    margin: 0 5px 15px 0;
+}
+
+.sectionBox {
+    padding: 0px;
+}
+
+.section {
+    min-width: 300px;
+}
+
+.correct {
+    background-image: linear-gradient(to right, rgba(46, 139, 86, 0.789), rgb(27, 83, 51));
+}
+
+.incorrect {
+    background-image: linear-gradient(to right, rgba(185, 49, 49, 0.9), rgba(170, 33, 33, 0.495) );
+}

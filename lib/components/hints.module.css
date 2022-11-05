@@ -1,0 +1,30 @@
+
+.hintsBox {
+    border: 1px solid grey;
+}
+
+.hintsContainer {
+    min-height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hint {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    color: gainsboro;
+    box-shadow: 7px 7px 10px rgb(50 50 50 / 50%);
+    background-image: linear-gradient(to bottom right, rgba(90, 90, 90, 0.737), rgba(90,90,90,0.8));
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nextHintContainer {
+    text-align: center;
+}
