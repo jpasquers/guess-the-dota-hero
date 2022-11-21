@@ -1,0 +1,75 @@
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.modal {
+    position: absolute;
+    inset: 100px 200px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    background-color: rgba(190,170,150,1);
+    outline: none;
+    padding: 20px;
+}
+
+.heroImg {
+    border-radius: 6px;
+}
+
+.congrats {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(210,210,210);
+    text-shadow: 0px 0px 1px black;
+    font-family: Reaver,serif;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.heroName {
+    position: absolute;
+    bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    left: 20px;
+    color: rgb(210,210,210);
+    text-shadow: 0px 0px 3px black;
+    font-family: Reaver,serif;
+
+}
+
+.hero {
+    position: relative;
+}
+
+.contentContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    margin-top: 50px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.more {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(50,50,50,0.5);
+}

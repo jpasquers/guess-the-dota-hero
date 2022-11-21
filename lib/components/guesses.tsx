@@ -4,7 +4,7 @@ import { Guess } from "./model";
 import { Section } from "./section";
 
 import style from "./guesses.module.css";
-import { HeroCard, HeroLogo } from "./hero_card";
+import { HeroTag, HeroLogo } from "./hero_tag";
 
 export interface GuessesProps {
     guesses: Guess[];
@@ -17,7 +17,11 @@ export const Guesses = ({ guesses }: GuessesProps) => {
             boxClazz={style.sectionBox}
             sectionClazz={style.section}
         >
-            
+            {
+                guesses.length === 0 
+                    ? <EmptyGuess/> 
+                    : <></>
+            }
             {guesses.map((guess): ReactElement => {
                 let hero = getHeroById(guess.heroId);
                 return (
@@ -29,10 +33,17 @@ export const Guesses = ({ guesses }: GuessesProps) => {
                                 : style.incorrect + " " + style.guess
                         }
                     >
-                        <HeroCard hero={hero}></HeroCard>
+                        <HeroTag hero={hero}></HeroTag>
                     </div>
                 );
             })}
         </Section>
     );
 };
+
+export const EmptyGuess = () => {
+    return <div className={style.guess + " " + style.empty}>
+        <div className={style.emptyLogo}></div>
+        <div className={style.emptyText}></div>
+    </div>
+}

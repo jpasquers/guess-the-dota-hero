@@ -17,3 +17,12 @@
     padding: 20px;
 
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grows {
+    flex-grow: 1;
+}

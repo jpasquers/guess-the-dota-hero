@@ -1,4 +1,4 @@
-const heroes = require("../data/heroes_with_hints.json");
+const heroes = require("../data/heroes.json");
 const axios = require("axios");
 const fs = require("fs");
 

@@ -16,4 +16,10 @@ export interface HeroMeta {
     agi_gain: number;
     int_base: number;
     int_gain: number;
+    damage_min: number;
+    damage_max: number;
+    max_health: number;
+    max_mana: number;
+    health_regen: number;
+    mana_regen: number;
 }

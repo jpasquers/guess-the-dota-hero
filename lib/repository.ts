@@ -2,7 +2,6 @@ import { Hero, GameInstance, HeroMeta } from "./model";
 import heroes from "../data/heroes.json";
 import uniqueHeroHints from "../data/unique_hero_hints.json";
 import moment from "moment";
-import fs from "fs";
 import dailies from "../data/dailies.json";
 
 export const generateRandomGameInstance = (): GameInstance => {
@@ -15,27 +14,34 @@ export const generateRandomGameInstance = (): GameInstance => {
     };
 };
 
-export const getCommonHints = (instance: GameInstance): string[] => {
-    return [
-        getStatHint(instance)
-    ]
-}
+// export const getCommonHints = (instance: GameInstance): string[] => {
+//     return [
+//         getStatHint(instance),
+//         getBaseDamageHint(instance)
+//     ]
+// }
 
 export const loadHeroMeta = (hero: Hero): HeroMeta => {
     let meta = require(`../data/hero_meta/${hero.name}.json`) as HeroMeta;
-    console.log(meta);
     return meta;
 }
 
-export const getStatHint = (instance: GameInstance): string => {
-    let meta = loadHeroMeta(instance.hero);
-    return `
-        Hero has the following stats: \n 
-        STR: ${meta.str_base} + ${meta.str_gain} \n 
-        AGI: ${meta.agi_base} + ${meta.agi_gain} \n 
-        INT: ${meta.int_base} + ${meta.int_gain} \n
-    `;
-}
+// export const getStatHint = (instance: GameInstance): string => {
+//     let meta = loadHeroMeta(instance.hero);
+//     return `
+//         This hero has these stat/gains: \n 
+//         STR: ${meta.str_base} + ${meta.str_gain} \n 
+//         AGI: ${meta.agi_base} + ${meta.agi_gain} \n 
+//         INT: ${meta.int_base} + ${meta.int_gain} \n
+//     `;
+// }
+
+// export const getBaseDamageHint = (instance: GameInstance): string => {
+//     let meta = loadHeroMeta(instance.hero);
+//     return `
+//         This hero has a base damage range of ${meta.damage_min}-${meta.damage_max}
+//     `;
+// }
 
 export const getReorderedUniqueHints = (instance: GameInstance) => {
     let hints = loadHeroUniqueHints(instance.hero);

@@ -1,12 +1,12 @@
 .guess {
     padding: 20px;
     color: white;
-    box-shadow: 0px 2px 5px rgba(40,40,40,1);
+    box-shadow: 3px 3px 3px rgba(40,40,40,1);
     margin: 0 5px 15px 0;
 }
 
 .sectionBox {
-    padding: 0px;
+    padding: 20px 0;
 }
 
 .section {
@@ -18,5 +18,26 @@
 }
 
 .incorrect {
-    background-image: linear-gradient(to right, rgba(185, 49, 49, 0.9), rgba(170, 33, 33, 0.495) );
+    background-image: linear-gradient(to right, #b52b16, #a72814b2 );
+}
+
+.empty {
+    background-image: linear-gradient(80deg, #aaa, #bbb);
+    display: flex;
+    align-items: center;
+}
+
+.emptyLogo {
+    background-color: #666;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.emptyText {
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 20px;
+    background-color: #999;
+    margin-left: 10px;
 }

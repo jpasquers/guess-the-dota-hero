@@ -1,6 +1,6 @@
 import { ReactElement, ReactNode, useState } from "react";
 import { getAllHeroes, getHeroByName } from "../repository";
-import { HeroCard, HeroLogo } from "./hero_card";
+import { HeroTag, HeroLogo } from "./hero_tag";
 
 import Select, { createFilter } from "react-select";
 
@@ -25,7 +25,7 @@ export const SubmitGuess = ({ submit }: SubmitGuessProps) => {
     
     let options = heroes.map(hero => ({
         searchKey: hero.localized_name,
-        label: <HeroCard hero={hero}/>,
+        label: <HeroTag hero={hero}/>,
         value: hero.id
     }));
 

@@ -1,10 +1,14 @@
 import React, { ReactNode } from "react";
 
 export interface SectionProps {
-    title: string;
+    title?: string;
     children: ReactNode;
     sectionClazz?: string;
     boxClazz?: string;
+}
+
+export interface ColumnProps {
+    children: ReactNode;
 }
 
 import style from "./section.module.css";
@@ -17,8 +21,14 @@ export const Section = ({
 }: SectionProps) => {
     return (
         <div className={style.section + " " + sectionClazz ?? ""}>
-            <div className={style.sectionTitle}>{title}</div>
+            {title ? <div className={style.sectionTitle}>{title}</div> : <></>}
             <div className={style.sectionBox + " " + boxClazz}>{children}</div>
         </div>
     );
 };
+
+export const Column = ({
+    children,
+}: ColumnProps) => {
+   return <div className={style.column}>{children}</div>
+}

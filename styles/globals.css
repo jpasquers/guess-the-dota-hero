@@ -3,8 +3,8 @@ body {
     padding: 0;
     margin: 0;
     color: rgb(70,70,70);
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Radiance","Noto Sans",sans-serif;
+    letter-spacing: 1px;;
 }
 
 a {
@@ -33,11 +33,12 @@ button {
     box-shadow: 4px 4px 8px rgb(50 50 50 / 50%);
     color: rgb(245,245,245);
     font-size: 18px;
-    background-color: rgba(80, 102, 137, 0.838);
+    background-color:rgba(70,70,70,0.5);
+    letter-spacing: 1px;
 }
 
 button:active {
-    background-color: rgba(52, 67, 90, 0.838);
+    background-color: rgba(70,70,70,0.8);
 }
 
 button:hover {

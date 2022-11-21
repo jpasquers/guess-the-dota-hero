@@ -1,0 +1,14 @@
+.heroLogo {
+    width: 20px;
+    height: 20px;
+}
+
+.heroCardText {
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+
+.heroCard {
+    display: flex;
+    align-items: center;
+}

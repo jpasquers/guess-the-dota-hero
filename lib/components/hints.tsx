@@ -4,18 +4,18 @@ import { Section } from "./section";
 import style from "./hints.module.css";
 import ReactTyped from "react-typed";
 
-export interface HintProps {
+export interface HintsProps {
     hints: Hint[];
     totalCount: number;
     nextHint: () => void;
 }
 
-export const Hints = ({ hints, totalCount, nextHint }: HintProps) => {
+export const Hints = ({ hints, totalCount, nextHint }: HintsProps) => {
     let rendered = Array.from({ length: totalCount }, (val, i) => {
-        return i < hints.length ? hints[i] : { text: "" };
+        return i < hints.length ? hints[i] : { text: `Hint #${i+1}` };
     });
     return (
-        <Section title="Hints" sectionClazz={style.hintsSection} boxClazz={style.hintsBox}>
+        <Section title="Hints">
             <div className={style.hintsContainer}>
                 {rendered.map((hint, i) => {
                     return (
