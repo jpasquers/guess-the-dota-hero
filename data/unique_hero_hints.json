@@ -160,13 +160,15 @@
 		"TBD"
 	],
     "tidehunter": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero wields a souvenir stolen from a hated rival", 
+		"This hero can reduce an enemy's armor", 
+		"Ability #3's icon is of the hero's weapon",
+        "Ability #2 is a defensive passive",
+        "This hero worships the god Maelrawn"
 	],
     "witch_doctor": [
         "This hero can heal an ally",
-		"TBD", 
+		"One of this hero's abilities is toggleable", 
 		"TBD"
 	],
     "riki": [
@@ -185,14 +187,16 @@
 		"TBD"
 	],
     "sniper": [
-		"TBD", 
+		"Ability #3 has both active and passive components", 
 		"TBD", 
 		"TBD"
 	],
     "necrolyte": [
         "This hero can heal an ally",
-		"TBD", 
-		"TBD"
+		"Ability #3 is a passive that has affects on both the hero and their enemies", 
+		"This hero used their profession to con people into giving them money",
+        "This hero's weapon was created by 'hammering tortured souls both into form and obedience",
+        "This hero is wanted as a criminal by Lady Onshu"
 	],
     "warlock": [
 		"One of the hero's abilities can give the enemy extra money", 
