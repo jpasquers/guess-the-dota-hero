@@ -19,7 +19,12 @@ export interface GamePageProps {
 
 export const GamePage = (props: GamePageProps) => {
     let instance = getGameInstance(props.seed);
-    let orderedHints = getReorderedUniqueHints(instance).map(hint => ({text: hint, unlocked: false}));
+    let orderedHints = getReorderedUniqueHints(instance).map((hint,i) => {
+        let unlocked = i === 0;
+        return {
+            text: hint, unlocked: unlocked
+        }
+    });
     let [currentHints, setCurrentHints] = useState<Hint[]>(orderedHints);
     let [currentGuesses, setCurrentGuesses] = useState<Guess[]>([]);
     let [currentScore, setCurrentScore] = useState(STARTING_SCORE);

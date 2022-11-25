@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { ReactElement, useEffect, useState } from "react";
 import { getHeroById } from "../repository";
 import { Guess } from "./model";
 import { Section } from "./section";
@@ -12,10 +12,18 @@ export interface GuessesProps {
 }
 
 export const Guesses = ({ guesses }: GuessesProps) => {
-    let isDesktop = useMediaQuery({minWidth: 900});
+    //Stupid SSR necessitates this.
+    const [isDesktop, setIsDesktop] = useState(false);
+    let mediaQuery = useMediaQuery({minWidth: 900});
+    useEffect(() => {
+        if (mediaQuery !== isDesktop) {
+            setIsDesktop(mediaQuery);
+        }
+
+    }, [mediaQuery]);
     return (
         <Section
-            title={isDesktop ? "Guesses" : undefined}
+            title={isDesktop ? "Guesses" : ""}
             boxClazz={style.sectionBox}
             sectionClazz={style.section}
         >
