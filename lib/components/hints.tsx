@@ -17,8 +17,9 @@ export const Hints = ({ hints, unlockHint }: HintsProps) => {
             <div className={style.hintsContainer}>
                 {hints.map((hint, i) => {
                     let text = hint.unlocked ? hint.text : `Hint #${i+1}`;
+                    console.log(text);
                     return (
-                        <div  key={i + hint.text + hint.unlocked} className={style.hintContainer}>
+                        <div  key={i + "_" + hint.text + "_" + hint.unlocked} className={style.hintContainer}>
                             <ReactTyped strings={[
                                 text
                             ]} showCursor={false} typeSpeed={25} className={style.hint}/>
