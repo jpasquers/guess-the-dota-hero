@@ -5,6 +5,7 @@ import styles from "./hero_tag.module.css";
 
 export interface HeroTagProps {
     hero: Hero;
+    textClazz?: string;
 }
 
 export interface HeroLogoProps {
@@ -14,10 +15,10 @@ export interface HeroLogoProps {
     width?: string;
 }
 
-export const HeroTag = ({ hero }: HeroTagProps) => {
+export const HeroTag = ({ hero, textClazz }: HeroTagProps) => {
     return <div className={styles.heroCard}>
         <HeroLogo hero={hero} customClass={styles.heroCardLogo}/> 
-        <span className={styles.heroCardText}>{hero.localized_name}</span>
+        <span className={styles.heroCardText + " " + textClazz}>{hero.localized_name}</span>
     </div>
 }
 

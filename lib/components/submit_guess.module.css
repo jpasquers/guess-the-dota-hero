@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.guessOptiontext {
+    color: rgb(70,70,70);
+}
+
 
 
 @media screen and (max-width: 750px) {

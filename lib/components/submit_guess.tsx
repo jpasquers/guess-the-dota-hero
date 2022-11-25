@@ -30,7 +30,7 @@ export const SubmitGuess = ({ submit, score }: SubmitGuessProps) => {
     
     let options = heroes.map(hero => ({
         searchKey: hero.localized_name,
-        label: <HeroTag hero={hero}/>,
+        label: <HeroTag hero={hero} textClazz={style.guessOptiontext}/>,
         value: hero.id
     }));
 
