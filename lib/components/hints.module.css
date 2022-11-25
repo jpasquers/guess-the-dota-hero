@@ -9,13 +9,31 @@
     border-color: rgba(70,70,70,0.5)
 }
 
-.hint {
+.hintContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid rgba(94, 54, 15, 0.737);
+    margin: 0px 25px;
+
+}
+
+.hintContainer:last-child {
+    border-bottom: none;
+}
+
+.hintButton {
+    margin-right: 10px;
+    padding: 15px 8px;
+    font-size: 12px;
+
+}
+
+.hint {
     min-height: 80px;
     width: 300px;
     color: gainsboro;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0px 25px;
     display: flex;
     align-items: center;
     padding: 30px 5px;

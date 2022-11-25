@@ -88,7 +88,7 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 750px) {
 
     .cardContainer {
         padding: 20px 40px;
@@ -106,5 +106,18 @@
 
     .statsCol:last-child {
         border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cardContainer {
+        padding: 12px;
+    }
+    .str, .agi, .int, .dmg {
+        padding: 12px;
+    }
+    .mystery {
+        font-size: 20px;
+        padding: 20px 60px;
     }
 }

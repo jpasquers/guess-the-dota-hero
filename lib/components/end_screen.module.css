@@ -73,3 +73,9 @@
     bottom: 0;
     background-color: rgba(50,50,50,0.5);
 }
+
+@media screen and (max-width: 750px) {
+    .modal {
+        inset: 10px 20px;
+    }
+}

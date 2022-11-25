@@ -21,7 +21,7 @@ export const EndScreen = (props: EndScreenProps) => {
     return <Modal className={styles.modal} overlayClassName={styles.overlay} isOpen={isOpen}>
         <button onClick={() => setIsOpen(false)} className={styles.close}>X</button>
         <div className={styles.contentContainer}>
-            <div className={styles.congrats}>Congratulations!</div>
+            <div className={styles.congrats}>{props.score > 0 ? "Congratulations!" : "Ooooof"}</div>
             <div className={styles.hero}>
                 <Image
                     className={styles.heroImg}
@@ -33,7 +33,7 @@ export const EndScreen = (props: EndScreenProps) => {
                 </Image>
                 <div className={styles.heroName}>{props.answer.localized_name}</div>
             </div>
-            <div className={styles.score}>Your Score: 1000</div>
+            <div className={styles.score}>Your Score: {props.score}</div>
             <div className={styles.sharing}>
                 <button className={styles.share}>Share (coming soon)!</button>
             </div>

@@ -4,5 +4,6 @@ export interface Guess {
 }
 
 export interface Hint {
+    unlocked: boolean;
     text: string;
 }

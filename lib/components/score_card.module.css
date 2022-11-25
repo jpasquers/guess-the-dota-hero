@@ -1,5 +1,8 @@
 .scoreValue {
     font-size: 36px;
     width: 100px;
+}
+
+.scoreBox {
     text-align: center;
 }

@@ -3,32 +3,33 @@ import { Section } from "./section";
 
 import style from "./hints.module.css";
 import ReactTyped from "react-typed";
+import { SCORE_LOSS_PER_HINT } from "../config";
 
 export interface HintsProps {
     hints: Hint[];
     totalCount: number;
-    nextHint: () => void;
+    unlockHint: (idx) => void;
 }
 
-export const Hints = ({ hints, totalCount, nextHint }: HintsProps) => {
-    let rendered = Array.from({ length: totalCount }, (val, i) => {
-        return i < hints.length ? hints[i] : { text: `Hint #${i+1}` };
-    });
+export const Hints = ({ hints, unlockHint }: HintsProps) => {
     return (
         <Section title="Hints">
             <div className={style.hintsContainer}>
-                {rendered.map((hint, i) => {
+                {hints.map((hint, i) => {
+                    let text = hint.unlocked ? hint.text : `Hint #${i+1}`;
                     return (
-                        <ReactTyped strings={[
-                            hint.text
-                        ]} showCursor={false} typeSpeed={25} className={style.hint} key={i + hint.text}/>
+                        <div  key={i + hint.text + hint.unlocked} className={style.hintContainer}>
+                            <ReactTyped strings={[
+                                text
+                            ]} showCursor={false} typeSpeed={25} className={style.hint}/>
+                            {hint.unlocked ? <></> : 
+                                <button onClick={() => unlockHint(i)} className={style.hintButton}>	
+                                    &#128274; ({SCORE_LOSS_PER_HINT}c)
+                                </button>
+                            }
+                        </div>
                     );
                 })}
-            </div>
-            <div className={style.nextHintContainer}>
-                <button className={style.nextHint} onClick={nextHint}>
-                    + Next Hint
-                </button>
             </div>
         </Section>
     );

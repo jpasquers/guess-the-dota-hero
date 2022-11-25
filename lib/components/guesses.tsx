@@ -13,7 +13,6 @@ export interface GuessesProps {
 
 export const Guesses = ({ guesses }: GuessesProps) => {
     let isDesktop = useMediaQuery({minWidth: 900});
-    console.log(isDesktop);
     return (
         <Section
             title={isDesktop ? "Guesses" : undefined}
