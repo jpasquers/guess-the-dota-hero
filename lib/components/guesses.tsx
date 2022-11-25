@@ -5,15 +5,18 @@ import { Section } from "./section";
 
 import style from "./guesses.module.css";
 import { HeroTag, HeroLogo } from "./hero_tag";
+import { useMediaQuery } from "react-responsive";
 
 export interface GuessesProps {
     guesses: Guess[];
 }
 
 export const Guesses = ({ guesses }: GuessesProps) => {
+    let isDesktop = useMediaQuery({minWidth: 900});
+    console.log(isDesktop);
     return (
         <Section
-            title="Guesses"
+            title={isDesktop ? "Guesses" : undefined}
             boxClazz={style.sectionBox}
             sectionClazz={style.section}
         >
@@ -33,7 +36,7 @@ export const Guesses = ({ guesses }: GuessesProps) => {
                                 : style.incorrect + " " + style.guess
                         }
                     >
-                        <HeroTag hero={hero}></HeroTag>
+                        {isDesktop ? <HeroTag hero={hero}></HeroTag> : <HeroLogo hero={hero} width="35px" height="35px"></HeroLogo>}
                     </div>
                 );
             })}

@@ -1,8 +1,10 @@
 {
     "antimage": [
 		"This hero holds two weapons", 
-		"TBD", 
-		"TBD"
+		"This hero was blind in the original dota", 
+		"This hero has a persona",
+        "This hero vows ruin to the Legion of the Dead God",
+        "Ability #3 has both an active and a passive component"
 	],
     "axe": [
 		"This hero can deal pure damage", 
@@ -38,17 +40,22 @@
 		"One of the hero's abilities can give the enemy extra money", 
 		"Ability #1 does damage over time", 
 		"One of the hero's abilities can momentarily remove them from the map",
-        "This hero can heal an ally"
+        "This hero can heal an ally",
+        "This hero 'has nice pecs'"
 	],
     "mirana": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"Ability #3 is affected by the direction the hero is facing", 
+		"This hero's ultimate ability affects their allies", 
+		"This hero's surname, 'Nightshade', was dropped from Dota 1 to 2",
+        "Upon meeting Invoker, this hero makes a pun related to a popular astrophysicist"
 	],
     "nevermore": [
 		"This hero's true name likely refers to an Edgar Allan Poe poem", 
 		"This hero has an arcana", 
-		"TBD"
+		"One of this hero's abilities is affected by the direction they are facing",
+        "Ability #3 is an aura",
+        "This hero's ultimate ability has a >1.5 second cast time",
+        "This hero can reduce the enemy's armor"
 	],
     "morphling": [
 		"One of the hero's abilities can momentarily remove them from the map", 
@@ -62,32 +69,44 @@
 	],
     "puck": [
 		"One of the hero's abilities can momentarily remove them from the map", 
-		"TBD", 
-		"TBD"
+		"This hero was hatched on the frond of the 'Undertree'", 
+		"This hero will spend countless millenia in their childish form",
+        "Ability #1 enables a followup castable action after being initially cast",
+        "Ability #2 can silence an enemy",
+        "One of this hero's voice lines references a Shakespeare play",
+        "This hero has voice lines referencing both Enimem and The Beatles",
+        "This hero's alternate name is Kupu-Kupu"
 	],
     "pudge": [
-		"Ability #3 affects the hero's stats", 
 		"This hero can deal pure damage", 
-		"TBD"
+		"This hero's ultimate ability is channeled",
+        "Ability #2's icon is of the hero's shoulder",
+        "Ability #3 has both an active and passive component",
+        "This hero worked for King Brandalon when younger",
+        "This hero's essence was used by an enchanter to bring a doll to life"
 	],
     "razor": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can reduce the enemy's armor", 
+		"One of this hero's attack responses references a Metallica album/song", 
+		"This hero's oldest rivalry is with storm spirit",
+        "Ability #3 is a passive that affects only them, and is affected by aghanim's shard",
+        "Mars describes this hero as a boring beaurocrat"
 	],
     "sand_king": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"Ability #3 is a passive that can affect any enemy", 
+		"This hero's ultimate ability has a >1.5 second cast point", 
+		"Gabe Newell's favorite hero (apparently)",
+        "This hero has a set of bracers crafted by the spire mage"
 	],
     "storm_spirit": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero was born out of a 'suicidal spell' that combined them with something else", 
+		"One of this hero's abilities can remove them from the map momentarily", 
+		"This hero can move enemy heroes",
+        "This hero is described as boisterous and jovial"
 	],
     "sven": [
-		"TBD", 
-		"TBD", 
+		"This hero holds a single weapon", 
+		"Was born of a Pallid Meranth, and is thus half meranth", 
 		"TBD"
 	],
     "tiny": [
@@ -568,6 +587,61 @@
 	],
     "arc_warden": [
 		"One of the hero's abilities can give the enemy extra money", 
+		"TBD", 
+		"TBD"
+	],
+    "monkey_king": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "pangolier": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "dark_willow": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "grimstroke": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "mars": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "void_spirit": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "snapfire": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "hoodwink": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "dawnbreaker": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "marci": [
+		"TBD", 
+		"TBD", 
+		"TBD"
+	],
+    "primal_beast": [
+		"TBD", 
 		"TBD", 
 		"TBD"
 	]

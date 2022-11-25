@@ -5,12 +5,14 @@
     margin: 0 5px 15px 0;
 }
 
-.sectionBox {
-    padding: 20px 0;
-}
-
 .section {
     min-width: 300px;
+}
+
+.mobileGuesses {
+    position: fixed;
+    left: 0px;
+    top: 50px;
 }
 
 .correct {
@@ -41,3 +43,40 @@
     background-color: #999;
     margin-left: 10px;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    .section {
+        min-width: 250px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .emptyText {
+        display: none;
+    }
+    .guess {
+        padding: 5px 10px 0px 10px;
+        margin: 0px;
+        border-bottom: 1px solid rgb(190,170,150);
+    }
+
+    .guess:last-child {
+        border-bottom: none;
+    }
+    .empty {
+        padding-bottom: 5px;
+    }
+    .sectionBox {
+        padding: 0;
+    }
+    .section {
+        position: fixed;
+        left: 0px;
+        top: 30px;
+        min-width: 0px;
+    }
+}
+
+

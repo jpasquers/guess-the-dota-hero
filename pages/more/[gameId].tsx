@@ -4,6 +4,7 @@ import { GamePage } from "../../lib/components/game_page";
 
 const Random = (): ReactElement => {
     const router = useRouter();
+    //null default may not be needed, part of debugging, undefined should be fine.
     const { gameId } = router.query ?? {gameId: null};
     return (
         <div className="page">

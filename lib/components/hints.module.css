@@ -21,6 +21,7 @@
     padding: 30px 5px;
 }
 
+
 .hint:last-child {
     border-bottom: none;
 }
@@ -28,4 +29,18 @@
 .nextHintContainer {
     margin-top: 20px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .hint {
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .hint {
+        width: 200px;
+    }
 }

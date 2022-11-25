@@ -558,5 +558,60 @@
         "name": "arc_warden",
         "id": 113,
         "localized_name": "Arc Warden"
+    },
+    {
+        "id": 114,
+        "name": "monkey_king",
+        "localized_name": "Monkey King"
+    },
+    {
+        "id": 120,
+        "name": "pangolier",
+        "localized_name": "Pangolier"
+    },
+    {
+        "id": 119,
+        "name": "dark_willow",
+        "localized_name": "Dark Willow"
+    },
+    {
+        "id": 121,
+        "name": "grimstroke",
+        "localized_name": "Grimstroke"
+    },
+    {
+        "id": 129,
+        "name": "mars",
+        "localized_name": "Mars"
+    },
+    {
+        "id": 126,
+        "name": "void_spirit",
+        "localized_name": "Void Spirit"
+    },
+    {
+        "id": 128,
+        "name": "snapfire",
+        "localized_name": "Snapfire"
+    },
+    {
+        "id": 123,
+        "name": "hoodwink",
+        "localized_name": "Hoodwink"
+    },
+    {
+        "id": 135,
+        "name": "dawnbreaker",
+        "localized_name": "Dawnbreaker"
+    },
+    {
+        "id": 136,
+        "name": "marci",
+        "localized_name": "Marci"
+    },
+    {
+        "id": 137,
+        "name": "primal_beast",
+        "localized_name": "Primal Beast"
     }
 ]
