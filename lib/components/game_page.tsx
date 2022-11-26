@@ -11,10 +11,10 @@ import { Page } from "./page";
 import { Column, Section } from "./section";
 import { Hints } from "./hints";
 import { EndScreen } from "./end_screen";
-import { ScoreCard } from "./score_card";
 
 export interface GamePageProps {
     seed: string;
+    isDaily: boolean;
 }
 
 export const GamePage = (props: GamePageProps) => {
@@ -66,8 +66,11 @@ export const GamePage = (props: GamePageProps) => {
             {
                 gameEnded ? 
                 <EndScreen 
+                    daily={props.isDaily}
                     score={currentScore}
-                    answer={instance.hero}
+                    instance={instance}
+                    hintsUsed={currentHints.filter(hint => hint.unlocked).length}
+                    guesses={currentGuesses}
                 ></EndScreen> : <></>
             }
             <div className={style.sections}>

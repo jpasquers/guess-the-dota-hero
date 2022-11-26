@@ -155,9 +155,12 @@
 		"TBD"
 	],
     "slardar": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can stun the enemy in multiple ways", 
+		"This hero can reduce the enemy's armor", 
+		"Ability #3 of this hero is a passive",
+        "This hero holds a single weapon",
+        "The brightness of the sun is painful for this hero",
+        "This hero's body supposedly contains mercury"
 	],
     "tidehunter": [
 		"This hero wields a souvenir stolen from a hated rival", 
@@ -169,7 +172,9 @@
     "witch_doctor": [
         "This hero can heal an ally",
 		"One of this hero's abilities is toggleable", 
-		"TBD"
+		"This hero is from the island highlands of Prefectura",
+        "All of this hero's ability icons contain purple",
+        "This hero is described as having a bizarre gait and uneven features/limbs"
 	],
     "riki": [
         "This hero's ultimate ability is a passive", 
@@ -179,7 +184,10 @@
     "enigma": [
 		"This hero can move enemy heroes", 
 		"This hero can deal pure damage", 
-		"TBD"
+		"This hero can give the enemy team money",
+        "Nothing is known of this hero's background beyond legends",
+        "Dark Willow covets this hero's power",
+        "This hero is described as a beast between the planes"
 	],
     "tinker": [
 		"This hero can deal pure damage", 
@@ -551,11 +559,11 @@
 	],
     "ember_spirit": [
 		"One of the hero's abilities can momentarily remove them from the map", 
-		"TBD", 
+		"This hero holds two weapons", 
 		"TBD"
 	],
     "earth_spirit": [
-		"This hero holds two weapons", 
+		"This hero holds one weapon", 
 		"This hero can move enemy heroes", 
 		"TBD"
 	],

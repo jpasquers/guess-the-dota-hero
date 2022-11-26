@@ -10,6 +10,7 @@ const Random = (): ReactElement => {
         <div className="page">
             {gameId 
                 ? <GamePage
+                    isDaily={false}
                     seed={gameId as string}
                 ></GamePage>
                 : <></>};

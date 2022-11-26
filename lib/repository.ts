@@ -60,13 +60,13 @@ export const getDailySeed = (): string => {
 
 export const getGameSeed = (instance: GameInstance): string => {
     return Buffer.from(
-        JSON.stringify([instance.hero.id, ...instance.uniqueHintOrder])
+        JSON.stringify([instance.hero.id, ...instance.uniqueHintOrder]).replace("[","").replace("]", "")
     ).toString("base64");
 };
 
 export const getGameInstance = (seed: string): GameInstance => {
     const [id, ...hintOrder] = JSON.parse(
-        Buffer.from(seed, "base64").toString()
+        "[" + Buffer.from(seed, "base64").toString() + "]"
     );
     const hero = getHeroById(id);
     return {

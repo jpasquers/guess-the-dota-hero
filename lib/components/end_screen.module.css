@@ -24,7 +24,7 @@
 .congrats {
     font-size: 30px;
     letter-spacing: 2px;
-    color: rgb(210,210,210);
+    color: rgb(70,70,70);
     text-shadow: 0px 0px 1px black;
     font-family: Reaver,serif;
     margin-bottom: 50px;
@@ -78,4 +78,18 @@
     .modal {
         inset: 10px 20px;
     }
+}
+
+.sharing {
+    display: flex;
+    align-items: center;
+}
+
+.copied {
+    margin-left: 10px;
+}
+
+.share {
+    display: flex;
+    align-items: center;
 }

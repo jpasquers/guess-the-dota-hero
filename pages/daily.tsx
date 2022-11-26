@@ -7,6 +7,7 @@ const Daily = (): ReactElement => {
         <div className="page">
             <GamePage
                 seed={getDailySeed()}
+                isDaily={true}
             ></GamePage>
         </div>
     );
