@@ -28,18 +28,20 @@
 	],
     "drow_ranger": [
 		"This hero can move enemy heroes", 
-		"TBD", 
-		"TBD"
+		"This hero's ultimate ability is a passive", 
+		"This hero's name contains their race"
 	],
     "earthshaker": [
 		"Ability #3 is a passive that is offensive", 
-		"TBD", 
-		"TBD"
+		"This hero is possibly named after a weapon from WoW with an AOE stun", 
+		"This hero hails from Nishai, and their default weapon has a symbol of that land",
+        "This hero surprisingly has multiple sexual voice lines",
+        "This hero acquires a movement ability from their Aghanim's Scepter"
 	],
     "juggernaut": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"Ability #1 does damage over time", 
-		"One of the hero's abilities can momentarily remove them from the map",
+		"This hero can temporarily make themselves not targetable",
         "This hero can heal an ally",
         "This hero 'has nice pecs'"
 	],
@@ -58,17 +60,17 @@
         "This hero can reduce the enemy's armor"
 	],
     "morphling": [
-		"One of the hero's abilities can momentarily remove them from the map", 
-		"TBD",
+		"This hero can temporarily make themselves not targetable", 
+		"This hero's ultimate can physically changes the hero",
 		"TBD"
 	],
     "phantom_lancer": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"Ability #3 affects the hero's stats"
 	],
     "puck": [
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"This hero was hatched on the frond of the 'Undertree'", 
 		"This hero will spend countless millenia in their childish form",
         "Ability #1 enables a followup castable action after being initially cast",
@@ -107,11 +109,12 @@
     "sven": [
 		"This hero holds a single weapon", 
 		"Was born of a Pallid Meranth, and is thus half meranth", 
-		"This hero 'has nice pecs'"
+		"This hero 'has nice pecs'",
+        "This hero's ultimate physically changes the hero"
 	],
     "tiny": [
         "This hero's ultimate ability is a passive", 
-		"TBD", 
+		"This hero's ultimate physically changes the hero", 
 		"TBD"
 	],
     "vengefulspirit": [
@@ -127,7 +130,7 @@
     "zuus": [
 		"This hero 'has nice pecs'", 
 		"This hero has children", 
-		"TBD"
+		"This hero's ultimate has a global affect"
 	],
     "kunkka": [
 		"This hero can move enemy heroes", 
@@ -179,7 +182,8 @@
     "riki": [
         "This hero's ultimate ability is a passive", 
 		"This hero is of royal blood, and escaped their family being slaughtered", 
-		"This hero holds two weapons"
+		"This hero holds two weapons",
+        "This hero's ultimate physically changes the hero"
 	],
     "enigma": [
 		"This hero can move enemy heroes", 
@@ -259,9 +263,10 @@
         "This hero can deal pure damage"
 	],
     "viper": [
+        "Ability #1 is a toggleable attack modifier",
 		"This hero has wings", 
-		"TBD", 
-		"TBD"
+		"This hero was captured by Pugna, who wanted to keep them as a pet", 
+		"Ability #3 is a passive that is both offensive and defensive"
 	],
     "luna": [
 		"TBD", 
@@ -269,14 +274,15 @@
 		"TBD"
 	],
     "dragon_knight": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero's ultimate physically changes the hero", 
+		"Ability #2 is a single target stun", 
+		"Ability #3 is a defensive passive"
 	],
     "dazzle": [
         "This hero can heal an ally",
-		"TBD", 
-		"TBD"
+		"This hero is from the Dezun Order", 
+		"This hero has a two sided ultimate",
+        "This hero's weapon is based on the khakkhara"
 	],
     "rattletrap": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -296,7 +302,8 @@
     "life_stealer": [
 		"Ability #2's icon is of the hero's mouth", 
 		"Ability #2 is a passive that is both offensive and defensive", 
-		"Ability #3 is a passive that is offensive"
+		"Ability #3 is a passive that is offensive",
+        "This hero's ultimate physically changes the hero"
 	],
     "dark_seer": [
 		"This hero has children", 
@@ -386,7 +393,7 @@
 	],
     "ursa": [
 		"This hero is a 'carry hero with children'", 
-		"TBD", 
+		"This hero's ultimate physically changes the hero", 
 		"TBD"
 	],
     "spirit_breaker": [
@@ -401,7 +408,7 @@
 	],
     "alchemist": [
 		"Ability #1 can cause enemies to lose armor", 
-		"TBD", 
+		"This hero's ultimate physically changes the hero", 
 		"TBD"
 	],
     "invoker": [
@@ -410,27 +417,27 @@
 		"TBD"
 	],
     "silencer": [
-		"TBD", 
+		"This hero's ultimate can have a global affect", 
 		"TBD", 
 		"TBD"
 	],
     "obsidian_destroyer": [
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"This hero has wings", 
 		"TBD"
 	],
     "lycan": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero's ultimate physically changes the hero", 
 		"TBD"
 	],
     "brewmaster": [
-		"One of the hero's abilities can momentarily remove them from the map", 
-		"TBD", 
+		"This hero can temporarily make themselves not targetable", 
+		"This hero's ultimate physically changes the hero", 
 		"TBD"
 	],
     "shadow_demon": [
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"TBD", 
 		"TBD"
 	],
@@ -441,7 +448,7 @@
 	],
     "chaos_knight": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"TBD"
 	],
     "meepo": [
@@ -458,7 +465,6 @@
     "ogre_magi": [
         "This hero's ultimate ability is a passive", 
         "This hero's deformity is considered a blessing", 
-        "This hero's true name is Aggron Stormbreak",
         "Ability #3 can be used to benefit themselves or an ally"
     ],
     "undying": [
@@ -494,7 +500,7 @@
 	],
     "wisp": [
         "This hero can heal an ally",
-		"TBD", 
+		"This hero's ultimate can affect anywhere on the map", 
 		"TBD"
 	],
     "visage": [
@@ -503,7 +509,7 @@
 		"TBD"
 	],
     "slark": [
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"TBD", 
 		"TBD"
 	],
@@ -518,7 +524,7 @@
 		"TBD"
 	],
     "centaur": [
-		"TBD", 
+		"This hero's ultimate can have a global affect", 
 		"TBD", 
 		"TBD"
 	],
@@ -537,7 +543,7 @@
 		"Ability #1 can cause enemies to lose armor"
 	],
     "tusk": [
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"TBD", 
 		"TBD"
 	],
@@ -612,7 +618,7 @@
     "monkey_king": [
 		"TBD", 
 		"TBD", 
-		"TBD"
+		"Ability #3 is a passive that is both offensive and defensive"
 	],
     "pangolier": [
 		"Ability #3 is a passive that is offensive", 
@@ -650,13 +656,13 @@
 		"TBD"
 	],
     "dawnbreaker": [
-		"TBD", 
+		"This hero's ultimate can affect anywhere on the map", 
 		"TBD", 
 		"TBD"
 	],
     "marci": [
 		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero's ultimate physically changes the hero", 
 		"TBD"
 	],
     "primal_beast": [

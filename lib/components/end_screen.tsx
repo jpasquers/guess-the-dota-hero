@@ -36,7 +36,7 @@ export const EndScreen = (props: EndScreenProps) => {
         if (navigator.share) {
             navigator.share({
                 text: fullText,
-                url: url,
+                url: `${fullText}\n${url}`,
                 title: title
             })
         }

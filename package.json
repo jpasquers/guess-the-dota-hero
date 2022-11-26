@@ -30,6 +30,7 @@
         "@types/react-countup": "^4.3.1",
         "@types/react-modal": "^3.13.1",
         "@types/react-responsive": "^8.0.5",
+        "@types/share-api-polyfill": "^1.0.3",
         "eslint": "8.26.0",
         "eslint-config-next": "12.3.1",
         "eslint-config-prettier": "^8.5.0",
