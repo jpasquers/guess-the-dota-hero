@@ -9,7 +9,7 @@
     "axe": [
 		"This hero can deal pure damage", 
 		"Ability #2 does damage over time", 
-		"TBD"
+		"This hero is 'a utility hero with nice pecs'"
 	],
     "bane": [
 		"TBD", 
@@ -23,7 +23,7 @@
 	],
     "crystal_maiden": [
 		"Ability #2 does damage over time", 
-		"TBD", 
+		"This hero can root enemy heroes", 
 		"TBD"
 	],
     "drow_ranger": [
@@ -32,7 +32,7 @@
 		"TBD"
 	],
     "earthshaker": [
-		"TBD", 
+		"Ability #3 is a passive that is offensive", 
 		"TBD", 
 		"TBD"
 	],
@@ -107,7 +107,7 @@
     "sven": [
 		"This hero holds a single weapon", 
 		"Was born of a Pallid Meranth, and is thus half meranth", 
-		"TBD"
+		"This hero 'has nice pecs'"
 	],
     "tiny": [
         "This hero's ultimate ability is a passive", 
@@ -116,7 +116,7 @@
 	],
     "vengefulspirit": [
 		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero has wings", 
 		"TBD"
 	],
     "windrunner": [
@@ -125,8 +125,8 @@
 		"TBD"
 	],
     "zuus": [
-		"TBD", 
-		"TBD", 
+		"This hero 'has nice pecs'", 
+		"This hero has children", 
 		"TBD"
 	],
     "kunkka": [
@@ -135,7 +135,7 @@
 		"TBD"
 	],
     "lina": [
-		"Ability #3 is a passive that only affects the hero", 
+		"Ability #3 is a passive that only affects the hero, and is offensive", 
 		"TBD", 
 		"TBD"
 	],
@@ -187,7 +187,8 @@
 		"This hero can give the enemy team money",
         "Nothing is known of this hero's background beyond legends",
         "Dark Willow covets this hero's power",
-        "This hero is described as a beast between the planes"
+        "This hero is described as a beast between the planes",
+        "This hero 'has nice pecs'"
 	],
     "tinker": [
 		"This hero can deal pure damage", 
@@ -218,7 +219,7 @@
 	],
     "queenofpain": [
 		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero has wings", 
 		"TBD"
 	],
     "venomancer": [
@@ -227,7 +228,7 @@
 		"TBD"
 	],
     "faceless_void": [
-		"TBD", 
+		"This hero 'has nice pecs'", 
 		"TBD", 
 		"TBD"
 	],
@@ -258,7 +259,7 @@
         "This hero can deal pure damage"
 	],
     "viper": [
-		"TBD", 
+		"This hero has wings", 
 		"TBD", 
 		"TBD"
 	],
@@ -293,12 +294,12 @@
 		"TBD"
 	],
     "life_stealer": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"Ability #2's icon is of the hero's mouth", 
+		"Ability #2 is a passive that is both offensive and defensive", 
+		"Ability #3 is a passive that is offensive"
 	],
     "dark_seer": [
-		"TBD", 
+		"This hero has children", 
 		"TBD", 
 		"TBD"
 	],
@@ -319,13 +320,15 @@
 	],
     "huskar": [
 		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero 'has nice pecs'", 
 		"TBD"
 	],
     "night_stalker": [
 		"This hero has no official history, only stories woven into each culture", 
 		"Ability #2 can silence multiple enemies", 
-		"Ability #3 is a passive, until Aghanim's Scepter is acquired"
+		"Ability #3 is a passive, until Aghanim's Scepter is acquired",
+        "This hero 'has nice pecs'",
+        "This hero has wings"
 	],
     "broodmother": [
         "This hero once spared a blacksmith's life in exchange for a full set of armor",
@@ -334,7 +337,8 @@
 		"Ptholopthales stored his magnetic wealth near this hero's home, knowing that it would be death to any who tried to reach it", 
 		"This hero lived below Mt. Pyrotheos",
         "Ability #2 can increase the hero's movement speed",
-        "Ability #1 is described as 'a taste for wandering heroes'"
+        "Ability #1 is described as 'a taste for wandering heroes'",
+        "This hero has children"
 	],
     "bounty_hunter": [
 		"It is said that this hero found and killed the tyrant King Goff in hiding", 
@@ -351,13 +355,13 @@
 		"TBD"
 	],
     "jakiro": [
-		"TBD", 
+		"This hero has wings", 
 		"TBD", 
 		"TBD"
 	],
     "batrider": [
-		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero can move enemy heroes in multiple ways", 
+		"This hero has wings", 
 		"TBD"
 	],
     "chen": [
@@ -371,7 +375,7 @@
 		"TBD"
 	],
     "doom_bringer": [
-		"TBD", 
+		"This hero has wings", 
 		"TBD", 
 		"TBD"
 	],
@@ -381,7 +385,7 @@
 		"TBD"
 	],
     "ursa": [
-		"TBD", 
+		"This hero is a 'carry hero with children'", 
 		"TBD", 
 		"TBD"
 	],
@@ -402,7 +406,7 @@
 	],
     "invoker": [
 		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero has children", 
 		"TBD"
 	],
     "silencer": [
@@ -412,7 +416,7 @@
 	],
     "obsidian_destroyer": [
 		"One of the hero's abilities can momentarily remove them from the map", 
-		"TBD", 
+		"This hero has wings", 
 		"TBD"
 	],
     "lycan": [
@@ -432,7 +436,7 @@
 	],
     "lone_druid": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero can root enemy heroes", 
 		"TBD"
 	],
     "chaos_knight": [
@@ -441,12 +445,12 @@
 		"TBD"
 	],
     "meepo": [
-		"TBD", 
-		"TBD", 
+		"This hero can root enemy heroes", 
+		"This hero has children", 
 		"TBD"
 	],
     "treant": [
-		"TBD", 
+		"This hero can root enemy heroes", 
 		"TBD", 
 		"TBD",
         "TBD"
@@ -480,7 +484,8 @@
     "naga_siren": [
 		"This hero was banished after losing a jeweled chalice during the battle of Cray.", 
 		"Ability #3 can cause enemies to lose armor",
-        "This hero holds two weapons"
+        "This hero holds two weapons",
+        "This hero can root enemy heroes"
 	],
     "keeper_of_the_light": [
         "This hero can heal an ally at certain times",
@@ -494,7 +499,7 @@
 	],
     "visage": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero has wings", 
 		"TBD"
 	],
     "slark": [
@@ -509,7 +514,7 @@
 	],
     "troll_warlord": [
 		"This hero holds two weapons", 
-		"TBD", 
+		"This hero can root enemy heroes", 
 		"TBD"
 	],
     "centaur": [
@@ -529,8 +534,7 @@
 	],
     "bristleback": [
         "This hero's ultimate ability is a passive", 
-		"Ability #1 can cause enemies to lose armor", 
-		"TBD"
+		"Ability #1 can cause enemies to lose armor"
 	],
     "tusk": [
 		"One of the hero's abilities can momentarily remove them from the map", 
@@ -538,7 +542,7 @@
 		"TBD"
 	],
     "skywrath_mage": [
-		"TBD", 
+		"This hero has wings", 
 		"TBD", 
 		"TBD"
 	],
@@ -554,13 +558,16 @@
 	],
     "legion_commander": [
         "This hero can heal an ally",
-		"TBD", 
-		"TBD"
+		"This hero can move enemy heroes", 
+		"Ability #3 is a passive that is both offensive and defensive",
+        "Saved their home of Stonehall, by defeating Vrogros",
+        "This hero changed gender between Dota and Dota 2",
+        "This hero wears a gemmed helmet found inside a magma flow"
 	],
     "ember_spirit": [
-		"One of the hero's abilities can momentarily remove them from the map", 
+		"One or more of the hero's abilities can momentarily remove them from the map", 
 		"This hero holds two weapons", 
-		"TBD"
+		"This hero can root enemy heroes"
 	],
     "earth_spirit": [
 		"This hero holds one weapon", 
@@ -574,12 +581,12 @@
 	],
     "terrorblade": [
 		"This hero holds two weapons", 
-		"TBD", 
+		"This hero has wings", 
 		"TBD"
 	],
     "phoenix": [
         "This hero can heal an ally",
-		"TBD", 
+		"This hero has wings", 
 		"TBD"
 	],
     "techies": [
@@ -608,13 +615,13 @@
 		"TBD"
 	],
     "pangolier": [
-		"TBD", 
-		"TBD", 
+		"Ability #3 is a passive that is offensive", 
+		"This hero has children", 
 		"TBD"
 	],
     "dark_willow": [
-		"TBD", 
-		"TBD", 
+		"This hero can root enemy heroes", 
+		"This hero has wings", 
 		"TBD"
 	],
     "grimstroke": [
@@ -623,13 +630,13 @@
 		"TBD"
 	],
     "mars": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can move enemy heroes", 
+		"This hero 'has nice pecs'", 
+		"This hero has children"
 	],
     "void_spirit": [
-		"TBD", 
-		"TBD", 
+		"This hero can move enemy heroes", 
+		"This hero 'has nice pecs'", 
 		"TBD"
 	],
     "snapfire": [
@@ -648,7 +655,7 @@
 		"TBD"
 	],
     "marci": [
-		"TBD", 
+		"This hero can move enemy heroes", 
 		"TBD", 
 		"TBD"
 	],

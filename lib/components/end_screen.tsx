@@ -32,7 +32,7 @@ export const EndScreen = (props: EndScreenProps) => {
         const hintsText = '🄷'.repeat(props.hintsUsed);
         const guessesText = props.guesses.map(guess => guess.correct ? "🟩" : "🟥").join("");
         const url = `https://guess-the-dota-hero.io${window.location.pathname}`;
-        const fullText = `${title}\n\n${hintsText}\n${guessesText}\nScore: ${props.score}`;
+        const fullText = `${title}\n\n${hintsText}\n${guessesText}\nScore: ${props.score}\n`;
         if (navigator.share) {
             navigator.share({
                 text: fullText,
