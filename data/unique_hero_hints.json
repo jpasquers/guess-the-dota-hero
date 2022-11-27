@@ -102,7 +102,7 @@
 	],
     "storm_spirit": [
 		"This hero was born out of a 'suicidal spell' that combined them with something else", 
-		"One of this hero's abilities can remove them from the map momentarily", 
+		"This hero can temporarily make themselves not targetable", 
 		"This hero can move enemy heroes",
         "This hero is described as boisterous and jovial"
 	],
@@ -571,7 +571,7 @@
         "This hero wears a gemmed helmet found inside a magma flow"
 	],
     "ember_spirit": [
-		"One or more of the hero's abilities can momentarily remove them from the map", 
+		"This hero can temporarily make themselves not targetable", 
 		"This hero holds two weapons", 
 		"This hero can root enemy heroes"
 	],
