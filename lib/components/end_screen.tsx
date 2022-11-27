@@ -14,10 +14,11 @@ export interface EndScreenProps {
     score: number;
     instance: GameInstance;
     daily: boolean;
+    isOpen: boolean;
+    setIsOpen: (x: boolean) => void;
 }
 
 export const EndScreen = (props: EndScreenProps) => {
-    const [isOpen, setIsOpen] = useState(true);
     const [copied, setCopied] = useState(false);
     const playMore = () => {
         let newInstance = generateRandomGameInstance();
@@ -46,8 +47,8 @@ export const EndScreen = (props: EndScreenProps) => {
         }
     }
     
-    return <Modal className={styles.modal} overlayClassName={styles.overlay} isOpen={isOpen}>
-        <button onClick={() => setIsOpen(false)} className={styles.close}>X</button>
+    return <Modal className={styles.modal} overlayClassName={styles.overlay} isOpen={props.isOpen}>
+        <button onClick={() => props.setIsOpen(false)} className={styles.close}>X</button>
         <div className={styles.contentContainer}>
             <div className={styles.congrats}>{props.score > 0 ? "Congratulations!" : "Ooooof"}</div>
             <div className={styles.hero}>

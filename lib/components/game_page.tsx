@@ -29,8 +29,12 @@ export const GamePage = (props: GamePageProps) => {
     let [currentGuesses, setCurrentGuesses] = useState<Guess[]>([]);
     let [currentScore, setCurrentScore] = useState(STARTING_SCORE);
     let [gameEnded, setGameEnded] = useState(false);
+    let [resultsOpen, setResultsOpen] = useState(false);
     let maxAllowedGuesses = Math.floor(STARTING_SCORE / SCORE_LOSS_PER_GUESS); 
 
+    useEffect(() => {
+        setResultsOpen(gameEnded)
+    }, [gameEnded]);
     const unlockHint = (idx: number) => {
         if (currentHints[idx].unlocked) return;
         setCurrentScore(Math.max(currentScore - SCORE_LOSS_PER_HINT, 0));
@@ -38,6 +42,10 @@ export const GamePage = (props: GamePageProps) => {
         nextHints[idx].unlocked = true;
         setCurrentHints(nextHints);
     };
+
+    const setModalOpen = (open: boolean) => {
+        setResultsOpen(open);
+    }
 
     const submitGuess = (id) => {
         let isCorrect = id === instance.hero.id;
@@ -66,6 +74,8 @@ export const GamePage = (props: GamePageProps) => {
             {
                 gameEnded ? 
                 <EndScreen 
+                    isOpen={resultsOpen}
+                    setIsOpen={setModalOpen}
                     daily={props.isDaily}
                     score={currentScore}
                     instance={instance}
@@ -82,7 +92,12 @@ export const GamePage = (props: GamePageProps) => {
                         hero={instance.hero}
                         
                     ></HeroInfo>
-                    <SubmitGuess score={currentScore} submit={submitGuess}></SubmitGuess>
+                    { gameEnded 
+                        ? <div className={style.viewResultsContainer}>
+                            <button className={style.viewResults} onClick={() => setModalOpen(true)}>View Results</button>
+                        </div>
+                        : <SubmitGuess score={currentScore} submit={submitGuess}></SubmitGuess>
+                    }
                 </Column>
                 <Column>
                     <Hints 
