@@ -36,9 +36,9 @@ export const EndScreen = (props: EndScreenProps) => {
         const fullText = `${title}\n\n${hintsText}\n${guessesText}\nScore: ${props.score}\n`;
         if (navigator.share) {
             navigator.share({
-                text: "Some text",
+                text: fullText,
                 url: url,
-                title: "Some title"
+                title: title
             })
         }
         else {

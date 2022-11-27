@@ -9,12 +9,16 @@
     "axe": [
 		"This hero can deal pure damage", 
 		"Ability #2 does damage over time", 
-		"This hero is 'a utility hero with nice pecs'"
+		"This hero is 'a utility hero with nice pecs'",
+        "This hero is one of 4 main Oglodi heroes",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "bane": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero's ultimate ability is channeled", 
+		"All of this hero's abilities are targeted", 
+		"All of this hero's ability icons are purple",
+        "This hero is one of the three shades",
+        "This hero's true name comes from Greek Mythology, specifically the sister of fate that cuts life's thread"
 	],
     "bloodseeker": [
 		"Ability #1 can hurt the hero", 
@@ -24,7 +28,8 @@
     "crystal_maiden": [
 		"Ability #2 does damage over time", 
 		"This hero can root enemy heroes", 
-		"TBD"
+		"This hero was the most picked hero at the TI 11 Main Event",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "drow_ranger": [
 		"This hero can move enemy heroes", 
@@ -36,7 +41,8 @@
 		"This hero is possibly named after a weapon from WoW with an AOE stun", 
 		"This hero hails from Nishai, and their default weapon has a symbol of that land",
         "This hero surprisingly has multiple sexual voice lines",
-        "This hero acquires a movement ability from their Aghanim's Scepter"
+        "This hero acquires a movement ability from their Aghanim's Scepter",
+        "This hero was the most picked hero at TI 7"
 	],
     "juggernaut": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -49,7 +55,8 @@
 		"Ability #3 is affected by the direction the hero is facing", 
 		"This hero's ultimate ability affects their allies", 
 		"This hero's surname, 'Nightshade', was dropped from Dota 1 to 2",
-        "Upon meeting Invoker, this hero makes a pun related to a popular astrophysicist"
+        "Upon meeting Invoker, this hero makes a pun related to a popular astrophysicist",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "nevermore": [
 		"This hero's true name likely refers to an Edgar Allan Poe poem", 
@@ -67,7 +74,8 @@
     "phantom_lancer": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero can temporarily make themselves not targetable", 
-		"Ability #3 affects the hero's stats"
+		"Ability #3 affects the hero's stats",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "puck": [
 		"This hero can temporarily make themselves not targetable", 
@@ -110,20 +118,21 @@
 		"This hero holds a single weapon", 
 		"Was born of a Pallid Meranth, and is thus half meranth", 
 		"This hero 'has nice pecs'",
-        "This hero's ultimate physically changes the hero"
+        "This hero's ultimate changes the physical appearance of the hero"
 	],
     "tiny": [
         "This hero's ultimate ability is a passive", 
-		"This hero's ultimate physically changes the hero", 
-		"TBD"
+		"This hero's ultimate changes the physical appearance of the hero", 
+		"This hero was the most picked hero at the TI 9 Main Event",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "vengefulspirit": [
 		"This hero can move enemy heroes", 
 		"This hero has wings", 
-		"TBD"
+		"This hero was the most picked hero at TI 8 (overall AND main event)"
 	],
     "windrunner": [
-		"TBD", 
+		"This hero appears in Dota: Dragon's Blood", 
 		"TBD", 
 		"TBD"
 	],
@@ -139,18 +148,20 @@
 	],
     "lina": [
 		"Ability #3 is a passive that only affects the hero, and is offensive", 
-		"TBD", 
+		"This hero appears in Dota: Dragon's Blood", 
 		"TBD"
 	],
     "lich": [
 		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero can buff ally heroes", 
 		"TBD"
 	],
     "lion": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero was the most picked hero at the TI 10 Main Event", 
+		"This hero's ultimate can apply a permanent buff to the hero", 
+		"Ability #1 can stun enemy heroes",
+        "One of this hero's voice lines references a book by C.S. Lewis",
+        "This hero is afflicted with Malignant Corruption"
 	],
     "shadow_shaman": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -183,7 +194,7 @@
         "This hero's ultimate ability is a passive", 
 		"This hero is of royal blood, and escaped their family being slaughtered", 
 		"This hero holds two weapons",
-        "This hero's ultimate physically changes the hero"
+        "This hero's ultimate changes the physical appearance of the hero"
 	],
     "enigma": [
 		"This hero can move enemy heroes", 
@@ -214,12 +225,15 @@
     "warlock": [
 		"One of the hero's abilities can give the enemy extra money", 
         "This hero can heal an ally",
-		"TBD"
+		"This hero is one of 4 main Oglodi heroes",
+        "This hero can apply a buff to ally heroes"
 	],
     "beastmaster": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero holds two weapons", 
-		"This hero can move enemy heroes"
+		"This hero can move enemy heroes",
+        "This hero passively applies a buff to ally heroes",
+        "This hero went 12/2/18 in the final game of TI 11"
 	],
     "queenofpain": [
 		"This hero can move enemy heroes", 
@@ -238,13 +252,14 @@
 	],
     "skeleton_king": [
         "This hero's ultimate ability is a passive", 
-		"TBD", 
-		"TBD"
+		"Ability #2 has an active and passive component", 
+		"Ability #3 is a passive"
 	],
     "death_prophet": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can silence enemy heroes", 
+		"This hero was 'disgorged' by death again and again, never able to truly die", 
+		"This hero once had an ability called 'witchcraft'",
+        "This hero's blood has grown thin and ectoplasmic"
 	],
     "phantom_assassin": [
         "This hero's ultimate ability is a passive", 
@@ -253,8 +268,8 @@
 	],
     "pugna": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
-		"TBD"
+		"This hero murdered his competition for Grandmaster at only 13 months of age", 
+		"Ability #2 can be used to apply a buff or debuff"
 	],
     "templar_assassin": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -269,14 +284,17 @@
 		"Ability #3 is a passive that is both offensive and defensive"
 	],
     "luna": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero appears in Dota: Dragon's Blood", 
+		"Ability #2 is an offensive passive", 
+		"Ability #3 passively applies a buff to this hero and allies",
+        "This hero's accent and lore is derived from the Celts",
+        "This hero knows snapfire from their endeavors long ago"
 	],
     "dragon_knight": [
-		"This hero's ultimate physically changes the hero", 
+		"This hero's ultimate changes the physical appearance of the hero", 
 		"Ability #2 is a single target stun", 
-		"Ability #3 is a defensive passive"
+		"Ability #3 is a defensive passive",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "dazzle": [
         "This hero can heal an ally",
@@ -290,20 +308,21 @@
 		"TBD"
 	],
     "leshrac": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"Ability #1 can stun the enemy", 
+		"This hero has a toggleable ability", 
+		"This hero fell victim to a sect of philosophy that turned them vile"
 	],
     "furion": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
-		"TBD"
+		"This hero was grown from the remnants of the goddess Verodicia", 
+		"This hero's original name was Tequoia"
 	],
     "life_stealer": [
 		"Ability #2's icon is of the hero's mouth", 
 		"Ability #2 is a passive that is both offensive and defensive", 
 		"Ability #3 is a passive that is offensive",
-        "This hero's ultimate physically changes the hero"
+        "This hero's ultimate changes the physical appearance of the hero",
+        "This hero is one of 4 main Oglodi heroes"
 	],
     "dark_seer": [
 		"This hero has children", 
@@ -393,7 +412,7 @@
 	],
     "ursa": [
 		"This hero is a 'carry hero with children'", 
-		"This hero's ultimate physically changes the hero", 
+		"This hero's ultimate changes the physical appearance of the hero", 
 		"TBD"
 	],
     "spirit_breaker": [
@@ -403,18 +422,18 @@
 	],
     "gyrocopter": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero retired to the tropical obscurity of the Ash Archipelago", 
 		"TBD"
 	],
     "alchemist": [
 		"Ability #1 can cause enemies to lose armor", 
-		"This hero's ultimate physically changes the hero", 
+		"This hero's ultimate changes the physical appearance of the hero", 
 		"TBD"
 	],
     "invoker": [
 		"This hero can move enemy heroes", 
 		"This hero has children", 
-		"TBD"
+		"This hero appears in Dota: Dragon's Blood"
 	],
     "silencer": [
 		"This hero's ultimate can have a global affect", 
@@ -428,12 +447,12 @@
 	],
     "lycan": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"This hero's ultimate physically changes the hero", 
+		"This hero's ultimate changes the physical appearance of the hero", 
 		"TBD"
 	],
     "brewmaster": [
 		"This hero can temporarily make themselves not targetable", 
-		"This hero's ultimate physically changes the hero", 
+		"This hero's ultimate changes the physical appearance of the hero", 
 		"TBD"
 	],
     "shadow_demon": [
@@ -474,18 +493,24 @@
 	],
     "rubick": [
 		"This hero can move enemy heroes", 
-		"TBD", 
-		"TBD"
+		"All of this hero's ability icons are green", 
+		"Ability #3 is an offensive passive",
+        "This hero grew bored after easily fending off multiple assassination attempts",
+        "This hero is in fact named after the popular puzzle"
 	],
     "disruptor": [
 		"This hero can move enemy heroes", 
-		"TBD", 
-		"TBD"
+		"This hero can silence enemy heroes", 
+		"This hero is from the steppes of Druud",
+        "This hero's original name was 'far seer'",
+        "This hero is one of 4 main Oglodi heroes"
 	],
     "nyx_assassin": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can stun the enemy in multiple ways", 
+		"This hero kills in the name of another", 
+		"This hero's original name was Anub'arak",
+        "This hero and his species were described in a book from the Ultimyr Archives",
+        "This hero can project thoughts onto others and hear their thoughts"
 	],
     "naga_siren": [
 		"This hero was banished after losing a jeweled chalice during the battle of Cray.", 
@@ -510,28 +535,39 @@
 	],
     "slark": [
 		"This hero can temporarily make themselves not targetable", 
-		"TBD", 
-		"TBD"
+		"This hero was the unofficial 13th member of a '___ Dozen' crew", 
+		"This hero holds one serrated weapon, with only one hand",
+        "Ability #3's icon is of the hero's weapon",
+        "This hero made a deal with the dark ones"
 	],
     "medusa": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero has two toggleable abilities", 
+		"This hero is one of 3 sisters, and is the only of them that is mortal", 
+		"This hero traded their beauty for power",
+        "This hero's ultimate can stun enemy heroes",
+        "This hero went 9/1/15 in the final game of TI 11"
 	],
     "troll_warlord": [
 		"This hero holds two weapons", 
 		"This hero can root enemy heroes", 
-		"TBD"
+		"This hero killed their own encampment after being kicked out for being intolerable",
+        "This hero has a toggleable ability",
+        "This hero's alternate name in Dota 1 was Cory Clark",
+        "This hero hates the shopkeeper for reasons unknown"
 	],
     "centaur": [
 		"This hero's ultimate can have a global affect", 
-		"TBD", 
-		"TBD"
+		"Ability #1 can stun enemy heroes", 
+		"Ability #3 is a passive that is partially defensive and offensive",
+        "This hero is from the highlands of Druud",
+        "This hero was awarded a great belt after beating every challenger in an arena"
 	],
     "magnataur": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero believes the eruption of Mt. Joerlak was no accident", 
+		"This hero protected their species from feirce hunters", 
+		"This hero's ultimate ability can stun enemy heroes",
+        "This hero can move enemy heroes in multiple ways",
+        "This hero went 8/2/18 in the final game of TI 10, and was played by the MVP"
 	],
     "shredder": [
 		"This hero can deal pure damage", 
@@ -559,7 +595,7 @@
 	],
     "elder_titan": [
 		"This hero can move enemy heroes", 
-		"TBD", 
+		"This hero was the most picked hero at TI 9 AND 10", 
 		"TBD"
 	],
     "legion_commander": [
@@ -573,7 +609,8 @@
     "ember_spirit": [
 		"This hero can temporarily make themselves not targetable", 
 		"This hero holds two weapons", 
-		"This hero can root enemy heroes"
+		"This hero can root enemy heroes",
+        "This hero went 7/1/15 in the final game of TI 10"
 	],
     "earth_spirit": [
 		"This hero holds one weapon", 
@@ -588,7 +625,8 @@
     "terrorblade": [
 		"This hero holds two weapons", 
 		"This hero has wings", 
-		"TBD"
+		"This hero went 9/1/13 in the final game of TI 10",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "phoenix": [
         "This hero can heal an ally",
@@ -602,17 +640,17 @@
 	],
     "oracle": [
         "This hero can heal an ally",
-		"TBD", 
+		"This hero appears in Dota: Dragon's Blood", 
 		"TBD"
 	],
     "winter_wyvern": [
         "This hero can heal an ally",
-		"TBD", 
+		"This hero appears in Dota: Dragon's Blood", 
 		"TBD"
 	],
     "arc_warden": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero appears in Dota: Dragon's Blood", 
 		"TBD"
 	],
     "monkey_king": [
@@ -662,8 +700,9 @@
 	],
     "marci": [
 		"This hero can move enemy heroes", 
-		"This hero's ultimate physically changes the hero", 
-		"TBD"
+		"This hero's ultimate changes the physical appearance of the hero", 
+		"This hero was the most picked hero at TI 11.",
+        "This hero appears in Dota: Dragon's Blood"
 	],
     "primal_beast": [
 		"TBD", 
