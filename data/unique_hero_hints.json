@@ -56,7 +56,8 @@
 		"This hero's ultimate ability affects their allies", 
 		"This hero's surname, 'Nightshade', was dropped from Dota 1 to 2",
         "Upon meeting Invoker, this hero makes a pun related to a popular astrophysicist",
-        "This hero appears in Dota: Dragon's Blood"
+        "This hero appears in Dota: Dragon's Blood",
+        "This hero rides something"
 	],
     "nevermore": [
 		"This hero's true name likely refers to an Edgar Allan Poe poem", 
@@ -64,12 +65,13 @@
 		"One of this hero's abilities is affected by the direction they are facing",
         "Ability #3 is an aura",
         "This hero's ultimate ability has a >1.5 second cast time",
-        "This hero can reduce the enemy's armor"
+        "This hero can reduce the enemy's armor",
+        "This hero has no feet"
 	],
     "morphling": [
 		"This hero can temporarily make themselves not targetable", 
 		"This hero's ultimate can physically changes the hero",
-		"TBD"
+		"This hero has no feet"
 	],
     "phantom_lancer": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -242,7 +244,7 @@
 	],
     "venomancer": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero has no feet", 
 		"TBD"
 	],
     "faceless_void": [
@@ -259,7 +261,8 @@
 		"This hero can silence enemy heroes", 
 		"This hero was 'disgorged' by death again and again, never able to truly die", 
 		"This hero once had an ability called 'witchcraft'",
-        "This hero's blood has grown thin and ectoplasmic"
+        "This hero's blood has grown thin and ectoplasmic",
+        "This hero has no feet"
 	],
     "phantom_assassin": [
         "This hero's ultimate ability is a passive", 
@@ -281,14 +284,16 @@
         "Ability #1 is a toggleable attack modifier",
 		"This hero has wings", 
 		"This hero was captured by Pugna, who wanted to keep them as a pet", 
-		"Ability #3 is a passive that is both offensive and defensive"
+		"Ability #3 is a passive that is both offensive and defensive",
+        "This hero has no feet"
 	],
     "luna": [
 		"This hero appears in Dota: Dragon's Blood", 
 		"Ability #2 is an offensive passive", 
 		"Ability #3 passively applies a buff to this hero and allies",
         "This hero's accent and lore is derived from the Celts",
-        "This hero knows snapfire from their endeavors long ago"
+        "This hero knows snapfire from their endeavors long ago",
+        "This hero rides something"
 	],
     "dragon_knight": [
 		"This hero's ultimate changes the physical appearance of the hero", 
@@ -326,13 +331,15 @@
 	],
     "dark_seer": [
 		"This hero has children", 
-		"TBD", 
-		"TBD"
+		"This hero can move enemy heroes", 
+		"This hero was once a general for the god-king Damathryx",
+        "This hero can apply a buff to allies",
+        "Legion Commander thinks this hero has a nice mustache/beard"
 	],
     "clinkz": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"Ability #2 is an attack modifier", 
+		"This hero can give the enemy extra money", 
+		"This hero uses a single weapon"
 	],
     "omniknight": [
         "This hero can heal an ally",
@@ -388,11 +395,11 @@
     "batrider": [
 		"This hero can move enemy heroes in multiple ways", 
 		"This hero has wings", 
-		"TBD"
+		"This hero rides something"
 	],
     "chen": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero rides something", 
 		"TBD"
 	],
     "spectre": [
@@ -406,7 +413,7 @@
 		"TBD"
 	],
     "ancient_apparition": [
-		"TBD", 
+		"This hero has no feet", 
 		"TBD", 
 		"TBD"
 	],
@@ -423,12 +430,12 @@
     "gyrocopter": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero retired to the tropical obscurity of the Ash Archipelago", 
-		"TBD"
+		"This hero rides something"
 	],
     "alchemist": [
 		"Ability #1 can cause enemies to lose armor", 
 		"This hero's ultimate changes the physical appearance of the hero", 
-		"TBD"
+		"This hero rides something"
 	],
     "invoker": [
 		"This hero can move enemy heroes", 
@@ -468,7 +475,7 @@
     "chaos_knight": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero can temporarily make themselves not targetable", 
-		"TBD"
+		"This hero rides something"
 	],
     "meepo": [
 		"This hero can root enemy heroes", 
@@ -516,17 +523,19 @@
 		"This hero was banished after losing a jeweled chalice during the battle of Cray.", 
 		"Ability #3 can cause enemies to lose armor",
         "This hero holds two weapons",
-        "This hero can root enemy heroes"
+        "This hero can root enemy heroes",
+        "This hero has no feet"
 	],
     "keeper_of_the_light": [
         "This hero can heal an ally at certain times",
 		"This hero can move enemy heroes", 
-		"TBD"
+		"This hero rides something",
+        "This hero has children"
 	],
     "wisp": [
         "This hero can heal an ally",
 		"This hero's ultimate can affect anywhere on the map", 
-		"TBD"
+		"This hero has no feet"
 	],
     "visage": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -545,7 +554,8 @@
 		"This hero is one of 3 sisters, and is the only of them that is mortal", 
 		"This hero traded their beauty for power",
         "This hero's ultimate can stun enemy heroes",
-        "This hero went 9/1/15 in the final game of TI 11"
+        "This hero went 9/1/15 in the final game of TI 11",
+        "This hero has no feet"
 	],
     "troll_warlord": [
 		"This hero holds two weapons", 
@@ -585,18 +595,21 @@
 	],
     "skywrath_mage": [
 		"This hero has wings", 
-		"TBD", 
-		"TBD"
+		"This hero can silence enemies", 
+		"This hero failed to save their old friend who was a princess"
 	],
     "abaddon": [
         "This hero can heal an ally",
-		"TBD", 
-		"TBD"
+		"This hero rides something", 
+		"This hero can silence enemies",
+        "Ability #3 is a passive",
+        "Ability #3's icon is the hero's weapon",
+        "This hero can apply a buff to an ally"
 	],
     "elder_titan": [
 		"This hero can move enemy heroes", 
 		"This hero was the most picked hero at TI 9 AND 10", 
-		"TBD"
+		"This hero has children"
 	],
     "legion_commander": [
         "This hero can heal an ally",
@@ -635,7 +648,7 @@
 	],
     "techies": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
+		"This hero rides something", 
 		"TBD"
 	],
     "oracle": [
@@ -669,7 +682,7 @@
 		"TBD"
 	],
     "grimstroke": [
-		"TBD", 
+		"This hero has no feet", 
 		"TBD", 
 		"TBD"
 	],
@@ -684,7 +697,7 @@
 		"TBD"
 	],
     "snapfire": [
-		"TBD", 
+		"This hero rides something", 
 		"TBD", 
 		"TBD"
 	],
