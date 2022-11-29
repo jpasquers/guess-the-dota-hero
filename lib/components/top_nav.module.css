@@ -1,0 +1,41 @@
+
+
+
+.container {
+    background-color: rgb(39, 36, 30);
+    color: rgb(210,210,210);
+    display: flex;
+    justify-content: right;
+}
+
+.item {
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin: 10px 10px 10px 0;
+    padding: 5px 30px 5px 30px;
+    border-left: 1px solid rgb(210,210,210);
+}
+
+.item:active, .item:hover {
+    cursor: pointer;
+    color: #427ed1;
+}
+
+.itemActive {
+    color: #427ed1;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 750px) {
+
+    .item {
+        margin: 5px 0 5px 0;
+        padding: 5px 30px 5px 30px;
+    }
+
+    .container {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}

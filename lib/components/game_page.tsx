@@ -11,6 +11,7 @@ import { Page } from "./page";
 import { Column, Section } from "./section";
 import { Hints } from "./hints";
 import { EndScreen } from "./end_screen";
+import { TopNav } from "./top_nav";
 
 export interface GamePageProps {
     seed: string;
@@ -71,6 +72,7 @@ export const GamePage = (props: GamePageProps) => {
 
     return (
         <Page>
+            <TopNav isDaily={props.isDaily}></TopNav>
             {
                 gameEnded ? 
                 <EndScreen 
