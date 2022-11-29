@@ -25,7 +25,6 @@ export const TopNav = (props: TopNavProps) => {
     //TODO this is duped....
     const playMore = () => {
         let newInstance = generateRandomGameInstance();
-        //Next router is behaving very strangely, no reason a raw link won't work.
         window.location.href = `/more/${getGameSeed(newInstance)}`;
     }
 
