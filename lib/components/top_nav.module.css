@@ -4,6 +4,9 @@
 .container {
     background-color: rgb(39, 36, 30);
     color: rgb(210,210,210);
+}
+
+.items {
     display: flex;
     justify-content: right;
 }
