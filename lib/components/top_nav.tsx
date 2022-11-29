@@ -31,26 +31,31 @@ export const TopNav = (props: TopNavProps) => {
     return <div className={styles.container}>
         <div className={styles.items}>
             <Link href="/daily">
-                <div className={styles.daily + " " + styles.item + " " + (props.isDaily ? styles.itemActive : "")}>
+                <div className={styles.itemContainer}>
+                    <div className={styles.daily + " " + styles.item + " " + (props.isDaily ? styles.itemActive : "")}>
+                        {isDesktop 
+                            ? "Daily" 
+                            : <Image 
+                                src={props.isDaily ? "/calendar_icon_blue.png" : "/calendar_icon_white.png"} 
+                                width="35px" 
+                                height="35px">
+                            </Image>
+                        }
+                    </div>
+                </div>
+                
+            </Link>
+            <div className={styles.itemContainer}>
+                <div className={styles.item + " " + (props.isDaily ? "" : styles.itemActive)} onClick={playMore}>
                     {isDesktop 
-                        ? "Daily" 
+                        ? "Random" 
                         : <Image 
-                            src={props.isDaily ? "/calendar_icon_blue.png" : "/calendar_icon_white.png"} 
+                            src={props.isDaily ? "/dice_icon_white.png" : "/dice_icon_blue.png"} 
                             width="35px" 
                             height="35px">
                         </Image>
                     }
                 </div>
-            </Link>
-            <div className={styles.item + " " + (props.isDaily ? "" : styles.itemActive)} onClick={playMore}>
-                {isDesktop 
-                    ? "Random" 
-                    : <Image 
-                        src={props.isDaily ? "/dice_icon_white.png" : "/dice_icon_blue.png"} 
-                        width="35px" 
-                        height="35px">
-                    </Image>
-                }
             </div>
         </div>
     </div>
