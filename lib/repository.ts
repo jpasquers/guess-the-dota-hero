@@ -45,7 +45,8 @@ export const loadHeroMeta = (hero: Hero): HeroMeta => {
 
 export const getReorderedUniqueHints = (instance: GameInstance) => {
     let hints = loadHeroUniqueHints(instance.hero);
-    return reorderHints(hints, instance.uniqueHintOrder);
+    //We may have added hints since
+    return reorderHints(hints.slice(0,instance.uniqueHintOrder.length), instance.uniqueHintOrder);
 }
 
 export const loadHeroUniqueHints = (hero: Hero): string[] => {
