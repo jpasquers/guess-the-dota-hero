@@ -30,10 +30,10 @@ export const EndScreen = (props: EndScreenProps) => {
         const title = props.daily 
             ? `GTDH - Daily ${moment.utc().format("MM/DD")}` 
             : `GTDH - Random ${getGameSeed(props.instance)}`;
-        const hintsText = '🄷'.repeat(props.hintsUsed);
+        const hintsText = '💡'.repeat(props.hintsUsed);
         const guessesText = props.guesses.map(guess => guess.correct ? "🟩" : "🟥").join("");
         const url = `https://guess-the-dota-hero.io${window.location.pathname}`;
-        const fullText = `${title}\n\n${hintsText}\n\n${guessesText}\nScore: ${props.score}\n\n${url}`;
+        const fullText = `${title}\n\n${hintsText}\n\n${guessesText}\n\nScore: ${props.score}\n\n${url}`;
         if (navigator.share) {
             navigator.share({
                 text: fullText,
