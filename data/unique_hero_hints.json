@@ -135,8 +135,10 @@
 	],
     "windrunner": [
 		"This hero appears in Dota: Dragon's Blood", 
-		"TBD", 
-		"TBD"
+		"Ability #1 can stun enemy heroes", 
+        "This hero is from the village of Zaru'Kina, in the Western Forests",
+		"Ability #3 applies a defensive buff to the hero",
+        "This hero never knew their family or people, as they were killed the night of the hero's birth"
 	],
     "zuus": [
 		"This hero 'has nice pecs'", 
@@ -145,18 +147,22 @@
 	],
     "kunkka": [
 		"This hero can move enemy heroes", 
-		"TBD", 
-		"TBD"
+		"This hero can stun enemy heroes", 
+		"Ability #1 is an active attack modifier"
 	],
     "lina": [
 		"Ability #3 is a passive that only affects the hero, and is offensive", 
 		"This hero appears in Dota: Dragon's Blood", 
-		"TBD"
+		"Ability #2 can stun enemy heroes",
+		"This hero was sent to live in the blazing Desert of Misrule",
+		"This hero trained with acolytes of the Solar Goddess in the Scintillent Waste"
 	],
     "lich": [
 		"This hero can move enemy heroes", 
-		"This hero can buff ally heroes", 
-		"TBD"
+		"Ability #2 can buff an ally hero",
+		"This hero was resurrected by a Geomancer",
+		"This hero was thrown, bound, into the Black Pool",
+		"This hero preserves the items that bound him, and wears them as a reminder"
 	],
     "lion": [
 		"This hero was the most picked hero at the TI 10 Main Event", 
@@ -167,8 +173,9 @@
 	],
     "shadow_shaman": [
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD", 
-		"TBD"
+		"This hero can stun enemy heroes", 
+		"This hero was born in the Bleeding Hills",
+        "This hero has connections with multiple cults"
 	],
     "slardar": [
 		"This hero can stun the enemy in multiple ways", 
@@ -209,13 +216,16 @@
 	],
     "tinker": [
 		"This hero can deal pure damage", 
-		"TBD", 
-		"TBD"
+		"Ability #3 applies a buff to an allied hero", 
+		"This hero's ultimate affects only themselves",
+		"This hero is a Keen",
+		"This hero founded a laboratory in the Violet Plateau"
 	],
     "sniper": [
 		"Ability #3 has both active and passive components", 
-		"TBD", 
-		"TBD"
+		"Ability #2 is an offensive passive", 
+		"This hero is likely a reference to a character in a previous valve game",
+        "This hero is a Keen"
 	],
     "necrolyte": [
         "This hero can heal an ally",
@@ -240,17 +250,23 @@
     "queenofpain": [
 		"This hero can move enemy heroes", 
 		"This hero has wings", 
-		"TBD"
+		"This hero's true name is the fifth element in many religions deriving from paganism",
+		"This hero came from a personal request of a King to a set of demonologists",
+		"This hero was set free when their king was hurled from the Tower of Invocations",
+		"Wraith King has a thing for this hero"
 	],
     "venomancer": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero has no feet", 
-		"TBD"
+		"This hero was once an Herbalist who injected himself with an 'antidote'",
+		"This hero was originally modeled as, and is likely based off of, a popular starcraft unit"
 	],
     "faceless_void": [
 		"This hero 'has nice pecs'", 
-		"TBD", 
-		"TBD"
+		"This hero can stun enemy heroes in multiple ways", 
+		"This hero is a visitor from Claszureme, an adjacent dimension",
+		"This hero's alternate name is Gorzerk",
+		"This hero removed their eyes in dedication of Clasz"
 	],
     "skeleton_king": [
         "This hero's ultimate ability is a passive", 
@@ -310,7 +326,9 @@
     "rattletrap": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero can move enemy heroes", 
-		"TBD"
+		"This hero is a Keen",
+		"This hero can stun enemy heroes in multiple ways",
+		"This hero's in-game name more references their armor"
 	],
     "leshrac": [
 		"Ability #1 can stun the enemy", 
@@ -343,8 +361,10 @@
 	],
     "omniknight": [
         "This hero can heal an ally",
-		"TBD", 
-		"TBD"
+		"Ability #2 applies a buff to an ally", 
+		"This hero's ultimate ability applies a buff to allies",
+		"This hero has met the deity they serve",
+		"This hero holds a single weapon with both hands"
 	],
     "enchantress": [
         "This hero's ultimate ability is a passive", 
@@ -354,7 +374,11 @@
     "huskar": [
 		"This hero can move enemy heroes", 
 		"This hero 'has nice pecs'", 
-		"TBD"
+		"Dazzle saved this hero from eternity",
+		"Ability #2 is an active attack modifier",
+		"Ability #3 is an offensive and defensive passive",
+		"This hero belongs to the Dezun Order",
+		"Troll Warlord hates this hero"
 	],
     "night_stalker": [
 		"This hero has no official history, only stories woven into each culture", 
@@ -385,12 +409,17 @@
     "weaver": [
 		"Ability #1 can cause enemies to lose armor", 
 		"One of the hero's abilities can give the enemy extra money", 
-		"TBD"
+		"Ability #3 is an active attack modifier",
+		"This hero's ultimate ability can heal themself",
+		"One of this hero's ability names comes from a Japanese term for rapid movement",
+		"This hero sought to not only maintain, but create new worlds and reality"
 	],
     "jakiro": [
 		"This hero has wings", 
-		"TBD", 
-		"TBD"
+		"Ability #2 can stun enemy heroes", 
+		"Ability #3 is an active attack modifier",
+		"This hero is of the Pyrexae race",
+		"This hero's mother is another dota 2 hero"
 	],
     "batrider": [
 		"This hero can move enemy heroes in multiple ways", 
@@ -400,32 +429,47 @@
     "chen": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero rides something", 
-		"TBD"
+		"Ability #3 is an aura that benefits allies",
+		"This hero's ultimate ability can heal allies",
+		"This hero was born in the Hazhadal Barrens",
+		"This hero's clan fought the armored knights of the Fold"
 	],
     "spectre": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can deal pure damage", 
+		"Ability #2 is an offensive passive", 
+		"Ability #3 is an offensive and defensive passive",
+		"This hero's ultimate can have global affect",
+		"This hero struggles with a loss of self",
+		"This hero's true name means 'swift, shrewd, and deceitful",
+		"This hero's true name is also akin to an element in the periodic table"
 	],
     "doom_bringer": [
 		"This hero has wings", 
-		"TBD", 
-		"TBD"
+		"Ability #3 is an active attack modifier", 
+		"This hero's ultimate is single targeted",
+		"This is the only hero able to move freely between the 7 dark dominions",
+		"This hero's name was tolled from the great bell of Vashundol"
 	],
     "ancient_apparition": [
 		"This hero has no feet", 
-		"TBD", 
-		"TBD"
+		"Ability #3 is an active attack modifier", 
+		"This hero's ultimate can have impact anywhere on the map",
+		"It is believed this hero will grow younger and stronger as eternity's end draws near",
+		"This hero's true name is an old Norse term meaning cold"
 	],
     "ursa": [
 		"This hero is a 'carry hero with children'", 
 		"This hero's ultimate changes the physical appearance of the hero", 
-		"TBD"
+		"Ability #3 is an offensive passive",
+		"This hero has killed a razorwyrm, and hunts ravagers and possibly cholgar"
 	],
     "spirit_breaker": [
 		"This hero can move enemy heroes", 
-		"TBD", 
-		"TBD"
+		"This hero can stun enemies in multiple ways", 
+		"Ability #3 is an offensive passive",
+		"This hero wears a ring in their nose",
+		"Three of this hero's ability icons include his face",
+		"This hero's true name means 'underworld' in Latin"
 	],
     "gyrocopter": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -444,33 +488,43 @@
 	],
     "silencer": [
 		"This hero's ultimate can have a global affect", 
-		"TBD", 
-		"TBD"
+		"Ability #2 is an active attack modifier", 
+		"This hero was bred of the order of Aeol Drias to be the best magic user ever",
+		"This hero was unable to cast a single spell their entire time as a student"
 	],
     "obsidian_destroyer": [
 		"This hero can temporarily make themselves not targetable", 
 		"This hero has wings", 
-		"TBD"
+		"Ability #3 is a utility passive",
+		"Ability #1 is an active attack modifier",
+		"This hero serves as a sentry at the edge of the Abyss"
 	],
     "lycan": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero's ultimate changes the physical appearance of the hero", 
-		"TBD"
+		"Ability #3 is a offensive and defensive passive",
+		"This hero was mutated in an attempt to make them kill their own father, but instead they turned on their captors",
+		"This hero was of the house of Ambry which attempted to overthrow their king"
 	],
     "brewmaster": [
 		"This hero can temporarily make themselves not targetable", 
 		"This hero's ultimate changes the physical appearance of the hero", 
-		"TBD"
+		"This hero can sometimes stun enemy heroes",
+		"This hero was born of a mother's flesh by a Celestial father"
 	],
     "shadow_demon": [
-		"This hero can temporarily make themselves not targetable", 
-		"TBD", 
-		"TBD"
+		"This hero can temporarily make themselves or others not targetable", 
+		"This hero appeased the will of demonologists to gain power in the material realm", 
+		"Doom and Shadow Fiend destroyed all of this hero's work",
+		"This hero's name in Dota 1 was Eredar, though that name was removed for Dota 2",
+		"This hero speaks the language 'Ozkavosh'"
 	],
     "lone_druid": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero can root enemy heroes", 
-		"TBD"
+		"This hero's ultimate can change their physical appearance",
+		"Ability #2 is a offensive and defensive passive",
+		"This hero taught Ulfsaar, but dislikes Lycan"
 	],
     "chaos_knight": [
 		"One of the hero's abilities can give the enemy extra money", 
@@ -480,13 +534,16 @@
     "meepo": [
 		"This hero can root enemy heroes", 
 		"This hero has children", 
-		"TBD"
+		"Ability #3 is a offensive and defensive passive",
+		"This hero's ultimate ability is a passive",
+		"This hero lives in the Riftshadow Ruins",
+		"this hero holds a single weapon with one hand"
 	],
     "treant": [
 		"This hero can root enemy heroes", 
-		"TBD", 
-		"TBD",
-        "TBD"
+		"Ability #2 applies a buff to an ally", 
+		"This hero was the only guardian of their group sent into the wider world",
+        "Gold and items confuse this hero, as they have never seen these in their land"
 	],
     "ogre_magi": [
         "This hero's ultimate ability is a passive", 
@@ -496,7 +553,9 @@
     "undying": [
 		"One of the hero's abilities can give the enemy extra money", 
         "This hero can heal an ally",
-		"TBD"
+		"This hero's ultimately changes the physical appearance of the hero",
+		"This hero lost sanity, and his name, after being thrown into a pit",
+		"This hero is driven by music"
 	],
     "rubick": [
 		"This hero can move enemy heroes", 
@@ -540,7 +599,10 @@
     "visage": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero has wings", 
-		"TBD"
+		"This hero can stun enemy heroes",
+        "Ability #3 is a defensive passive",
+        "This hero's name refers only to the form they take, not their true spirit Necro'lic",
+        "This hero has sent lion back to hell"
 	],
     "slark": [
 		"This hero can temporarily make themselves not targetable", 
@@ -581,8 +643,10 @@
 	],
     "shredder": [
 		"This hero can deal pure damage", 
-		"TBD", 
-		"TBD"
+		"This hero lived in Augury Bay until it fell", 
+		"Ability #3 is a defensive passive",
+        "This hero's ultimate is likely a reference to the Hindu Deity Vishnu's weapon",
+        "This hero's aunt is Snapfire"
 	],
     "bristleback": [
         "This hero's ultimate ability is a passive", 
@@ -590,8 +654,10 @@
 	],
     "tusk": [
 		"This hero can temporarily make themselves not targetable", 
-		"TBD", 
-		"TBD"
+		"This hero's ultimate is an active attack modifier", 
+		"This hero can stun enemy heroes",
+        "One of this hero's voice lines references a famous Super Smash Bros move",
+        "This hero is also known by the nickname 'Iron Fisht'"
 	],
     "skywrath_mage": [
 		"This hero has wings", 
@@ -626,14 +692,17 @@
         "This hero went 7/1/15 in the final game of TI 10"
 	],
     "earth_spirit": [
-		"This hero holds one weapon", 
+		"This hero holds one weapon in one hand", 
 		"This hero can move enemy heroes", 
-		"TBD"
+		"Ability #1 can stun enemy heroes",
+		"This hero was formed from a Jade seam in Upland"
 	],
     "abyssal_underlord": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can root enemy heroes", 
+		"Ability #3 is a passive that is both offensive and defensive", 
+		"Ability #3's icon is of the hero's face",
+        "This hero is the last original ported Dota 1 hero",
+        "This hero hates legion commander"
 	],
     "terrorblade": [
 		"This hero holds two weapons", 
@@ -644,47 +713,63 @@
     "phoenix": [
         "This hero can heal an ally",
 		"This hero has wings", 
-		"TBD"
+		"This hero can stun enemy heroes",
+        "This hero brought Dawnbreaker back to life"
 	],
     "techies": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero rides something", 
-		"TBD"
+		"Towns tend to disappear when this hero arrives, notably Dredger's Bight",
+        "This hero can silence enemies",
+        "Ability #3's icon pictures the entire hero"
 	],
     "oracle": [
         "This hero can heal an ally",
 		"This hero appears in Dota: Dragon's Blood", 
-		"TBD"
+		"This hero can root enemies",
+        "This hero served the Graven King, who saught to use them as a weapon",
+        "This hero signed a contract with Phantom Assassin"
 	],
     "winter_wyvern": [
         "This hero can heal an ally",
 		"This hero appears in Dota: Dragon's Blood", 
-		"TBD"
+		"This hero's gender changed from Dota to Dota 2",
+        "This hero loves to write poetry"
 	],
     "arc_warden": [
 		"One of the hero's abilities can give the enemy extra money", 
 		"This hero appears in Dota: Dragon's Blood", 
-		"TBD"
+        "This hero exists as a fragment of an old Mind",
+		"This hero sought to stop the fighting between Radinthul and Diruulth"
 	],
     "monkey_king": [
-		"TBD", 
-		"TBD", 
-		"Ability #3 is a passive that is both offensive and defensive"
+		"This hero was kept in a stonewrought prison for 500 years", 
+		"This hero earned absolution with the Gods by accompanying a young acolyte on a pilgrimage", 
+		"Ability #3 is a passive that is both offensive and defensive",
+        "Ability #1 can stun enemy heroes",
+        "This hero was the first original hero to Dota 2"
 	],
     "pangolier": [
-		"Ability #3 is a passive that is offensive", 
+		"Ability #3 is an offensive passive", 
 		"This hero has children", 
-		"TBD"
+		"This hero is one of the Nivan Gallants",
+		"This hero's ultimate can stun enemy heroes",
+		"This hero is actually sometimes labeled as two different species in the game files"
 	],
     "dark_willow": [
 		"This hero can root enemy heroes", 
 		"This hero has wings", 
-		"TBD"
+		"This hero can temporarily make themselves not targetable",
+		"This hero's accent is heavily based on Celtic/Gaelic",
+		"This hero is the daughter of one Revtel's merchant kings"
 	],
     "grimstroke": [
 		"This hero has no feet", 
-		"TBD", 
-		"TBD"
+		"This hero passed a vile corruption to his people rather than take it on himself", 
+		"This hero accidentally tainted vials used in their ascension ritual",
+		"Ability #2 can silence an enemy hero",
+		"Ability #3 applies a buff to an ally",
+		"This hero fell in love with Yaovhi, who now serves at his side despite being corrupted"
 	],
     "mars": [
 		"This hero can move enemy heroes", 
@@ -694,22 +779,30 @@
     "void_spirit": [
 		"This hero can move enemy heroes", 
 		"This hero 'has nice pecs'", 
-		"TBD"
+		"This hero can temporarily make themselves not targetable",
+		"Ability #3 applies a buff to the hero and deals damage",
+		"This hero's true name is a negation of the Japanese term 'to exist'"
 	],
     "snapfire": [
 		"This hero rides something", 
-		"TBD", 
-		"TBD"
+		"This hero can indirectly stun enemy heroes", 
+		"Ability #3 can reduce enemy armor",
+		"This hero lives in the Nanarak, the rain forsaken gateway to the outlands",
+		"This hero is a Keen",
+		"This hero is timbersaw's aunt"
 	],
     "hoodwink": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can stun enemy heroes", 
+		"This hero used a Gleipnir to chain up Primal Beast", 
+		"This hero often fought the Tomo'kan in their homeworld of Krimwohl",
+		"Ability #3 is a defensive passive"
 	],
     "dawnbreaker": [
 		"This hero's ultimate can affect anywhere on the map", 
-		"TBD", 
-		"TBD"
+		"Ability #3 is an offensive and defensive passive",
+		"This hero can stun enemy heroes",
+		"This hero was created from a star by the Children of Light",
+		"This hero's alternate name in the game files is Valkyrie"
 	],
     "marci": [
 		"This hero can move enemy heroes", 
@@ -718,8 +811,9 @@
         "This hero appears in Dota: Dragon's Blood"
 	],
     "primal_beast": [
-		"TBD", 
-		"TBD", 
-		"TBD"
+		"This hero can stun enemy heroes in multiple ways", 
+		"Ability #3 has active and passive components", 
+		"This hero was held captive with Gleipnir",
+		"This hero ravaged the Mistwoods for thousands of years"
 	]
 }
