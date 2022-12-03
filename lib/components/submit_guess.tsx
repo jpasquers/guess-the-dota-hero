@@ -26,7 +26,7 @@ export const SubmitGuess = ({ submit, score }: SubmitGuessProps) => {
     let heroes = getAllHeroes();
     let isDesktop = useMediaQuery({minWidth: 750});
 
-    let [selected, setSelected] = useState<number>(heroes[0].id);
+    let [selected, setSelected] = useState<number|undefined>(undefined);
     
     let options = heroes.map(hero => ({
         searchKey: hero.localized_name,
@@ -53,7 +53,7 @@ export const SubmitGuess = ({ submit, score }: SubmitGuessProps) => {
                     maxMenuHeight={150}
                     menuPlacement={isDesktop ? 'auto' : 'top'}
                 />
-                <button className={style.submit} onClick={() => submit(selected)}>
+                <button disabled={!selected} className={style.submit} onClick={() => submit(selected)}>
                     Guess ({SCORE_LOSS_PER_GUESS}c)
                 </button>
             </div>

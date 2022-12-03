@@ -48,7 +48,14 @@ export const GamePage = (props: GamePageProps) => {
         setResultsOpen(open);
     }
 
+    const alreadyGuessed = (id) => {
+        return !!currentGuesses.find(
+            guess => guess.heroId === id
+        );
+    }
+
     const submitGuess = (id) => {
+        if (alreadyGuessed(id)) return;
         let isCorrect = id === instance.hero.id;
         setCurrentGuesses([
             ...currentGuesses,

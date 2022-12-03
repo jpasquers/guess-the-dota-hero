@@ -202,7 +202,7 @@
     {
         "name": "skeleton_king",
         "id": 42,
-        "localized_name": "Skeleton King"
+        "localized_name": "Wraith King"
     },
     {
         "name": "death_prophet",
@@ -377,7 +377,7 @@
     {
         "name": "lycan",
         "id": 77,
-        "localized_name": "Lycanthrope"
+        "localized_name": "Lycan"
     },
     {
         "name": "brewmaster",
@@ -447,7 +447,7 @@
     {
         "name": "wisp",
         "id": 91,
-        "localized_name": "Wisp"
+        "localized_name": "Io"
     },
     {
         "name": "visage",
@@ -527,7 +527,7 @@
     {
         "name": "abyssal_underlord",
         "id": 108,
-        "localized_name": "Abyssal Underlord"
+        "localized_name": "Underlord"
     },
     {
         "name": "terrorblade",
