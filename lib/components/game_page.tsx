@@ -112,7 +112,9 @@ export const GamePage = (props: GamePageProps) => {
                     <Hints 
                         hints={currentHints}
                         totalCount={orderedHints.length}
-                        unlockHint={unlockHint}/>
+                        unlockHint={unlockHint}
+                        cost={gameEnded ? 0 : SCORE_LOSS_PER_HINT}
+                    />
                 </Column>
                 
             </div>

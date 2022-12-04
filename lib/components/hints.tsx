@@ -3,15 +3,15 @@ import { Section } from "./section";
 
 import style from "./hints.module.css";
 import ReactTyped from "react-typed";
-import { SCORE_LOSS_PER_HINT } from "../config";
 
 export interface HintsProps {
     hints: Hint[];
     totalCount: number;
     unlockHint: (idx) => void;
+    cost: number;
 }
 
-export const Hints = ({ hints, unlockHint }: HintsProps) => {
+export const Hints = ({ hints, unlockHint, cost }: HintsProps) => {
     return (
         <Section title="Hints">
             <div className={style.hintsContainer}>
@@ -25,7 +25,7 @@ export const Hints = ({ hints, unlockHint }: HintsProps) => {
                             ]} showCursor={false} typeSpeed={25} className={style.hint}/>
                             {hint.unlocked ? <></> : 
                                 <button onClick={() => unlockHint(i)} className={style.hintButton}>	
-                                    &#128274; ({SCORE_LOSS_PER_HINT}c)
+                                    &#128274; ({cost}c)
                                 </button>
                             }
                         </div>
