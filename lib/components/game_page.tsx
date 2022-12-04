@@ -38,7 +38,8 @@ export const GamePage = (props: GamePageProps) => {
     }, [gameEnded]);
     const unlockHint = (idx: number) => {
         if (currentHints[idx].unlocked) return;
-        setCurrentScore(Math.max(currentScore - SCORE_LOSS_PER_HINT, 0));
+        let lostScore = gameEnded ? 0 : SCORE_LOSS_PER_HINT;
+        setCurrentScore(Math.max(currentScore - lostScore, 0));
         let nextHints = [...currentHints];
         nextHints[idx].unlocked = true;
         setCurrentHints(nextHints);
