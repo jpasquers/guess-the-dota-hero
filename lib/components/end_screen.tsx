@@ -34,7 +34,7 @@ export const EndScreen = (props: EndScreenProps) => {
         const guessesText = props.guesses.map(guess => guess.correct ? "🟩" : "🟥").join("");
         const url = `https://guess-the-dota-hero.io${window.location.pathname}`;
         const fullText = `${title}\n\n${hintsText}\n\n${guessesText}\n\nScore: ${props.score}\n\n${url}`;
-        if (navigator.share) {
+        if (navigator.share && navigator.canShare && navigator.canShare()) {
             navigator.share({
                 text: fullText,
             })
