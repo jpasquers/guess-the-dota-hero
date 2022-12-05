@@ -3,50 +3,26 @@ import heroes from "../data/heroes.json";
 import uniqueHeroHints from "../data/unique_hero_hints.json";
 import moment from "moment";
 import dailies from "../data/dailies.json";
+import { MAX_HINT_COUNT } from "./config";
 
 export const generateRandomGameInstance = (): GameInstance => {
     let hero = randomHero();
     let uniqueHints = loadHeroUniqueHints(hero);
-    let uniqueHintOrder = randomHintOrder(uniqueHints.length);
+    let uniqueHintOrder = randomHintOrder(uniqueHints.length).slice(0,MAX_HINT_COUNT);
     return {
         hero,
-        uniqueHintOrder,
+        hintDisplayOrder: uniqueHintOrder,
     };
 };
-
-// export const getCommonHints = (instance: GameInstance): string[] => {
-//     return [
-//         getStatHint(instance),
-//         getBaseDamageHint(instance)
-//     ]
-// }
 
 export const loadHeroMeta = (hero: Hero): HeroMeta => {
     let meta = require(`../data/hero_meta/${hero.name}.json`) as HeroMeta;
     return meta;
 }
 
-// export const getStatHint = (instance: GameInstance): string => {
-//     let meta = loadHeroMeta(instance.hero);
-//     return `
-//         This hero has these stat/gains: \n 
-//         STR: ${meta.str_base} + ${meta.str_gain} \n 
-//         AGI: ${meta.agi_base} + ${meta.agi_gain} \n 
-//         INT: ${meta.int_base} + ${meta.int_gain} \n
-//     `;
-// }
-
-// export const getBaseDamageHint = (instance: GameInstance): string => {
-//     let meta = loadHeroMeta(instance.hero);
-//     return `
-//         This hero has a base damage range of ${meta.damage_min}-${meta.damage_max}
-//     `;
-// }
-
 export const getReorderedUniqueHints = (instance: GameInstance) => {
     let hints = loadHeroUniqueHints(instance.hero);
-    //We may have added hints since
-    return reorderHints(hints.slice(0,instance.uniqueHintOrder.length), instance.uniqueHintOrder);
+    return reorderHints(hints, instance.hintDisplayOrder);
 }
 
 export const loadHeroUniqueHints = (hero: Hero): string[] => {
@@ -61,7 +37,7 @@ export const getDailySeed = (): string => {
 
 export const getGameSeed = (instance: GameInstance): string => {
     return Buffer.from(
-        JSON.stringify([instance.hero.id, ...instance.uniqueHintOrder]).replace("[","").replace("]", "")
+        JSON.stringify([instance.hero.id, ...instance.hintDisplayOrder]).replace("[","").replace("]", "")
     ).toString("base64");
 };
 
@@ -69,10 +45,11 @@ export const getGameInstance = (seed: string): GameInstance => {
     const [id, ...hintOrder] = JSON.parse(
         "[" + Buffer.from(seed, "base64").toString() + "]"
     );
+    let cappedHintOrder = hintOrder.slice(0,MAX_HINT_COUNT);
     const hero = getHeroById(id);
     return {
         hero: hero,
-        uniqueHintOrder: hintOrder,
+        hintDisplayOrder: cappedHintOrder,
     };
 };
 
@@ -100,7 +77,8 @@ export const reorderHints = (
     hints: string[],
     hintOrder: number[]
 ): string[] => {
-    return arrayOfIndices(hints.length).map((idx) => hints[hintOrder[idx]]);
+    //The hint order also dictates the amount of hints displayed
+    return arrayOfIndices(hintOrder.length).map((idx) => hints[hintOrder[idx]]);
 };
 
 

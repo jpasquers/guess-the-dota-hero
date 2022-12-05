@@ -1,6 +1,6 @@
 export interface GameInstance {
     hero: Hero;
-    uniqueHintOrder: number[];
+    hintDisplayOrder: number[];
 }
 
 export interface Hero {
