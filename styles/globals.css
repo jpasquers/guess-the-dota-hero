@@ -37,14 +37,16 @@ button {
     letter-spacing: 1px;
 }
 
-
-button:active {
-    background-color: rgba(70,70,70,0.8);
-}
-
 button:hover {
+    background-color: rgba(70,70,70,0.7);
     cursor: pointer;
 }
+
+button:active {
+    background-color: rgba(70,70,70,0.9);
+}
+
+
 
 button:disabled {
     cursor:not-allowed;

@@ -26,23 +26,29 @@ export const EndScreen = (props: EndScreenProps) => {
         window.location.href = `/more/${getGameSeed(newInstance)}`;
     }
 
-    const share = () => {
+    const getShareText = () => {
         const title = props.daily 
-            ? `GTDH - Daily ${moment.utc().format("MM/DD")}` 
-            : `GTDH - Random ${getGameSeed(props.instance)}`;
+        ? `GTDH - Daily ${moment.utc().format("MM/DD")}` 
+        : `GTDH - Random ${getGameSeed(props.instance)}`;
         const hintsText = '💡'.repeat(props.hintsUsed);
         const guessesText = props.guesses.map(guess => guess.correct ? "🟩" : "🟥").join("");
         const url = `https://guess-the-dota-hero.io${window.location.pathname}`;
-        const fullText = `${title}\n\n${hintsText}\n\n${guessesText}\n\nScore: ${props.score}\n\n${url}`;
-        if (navigator.share && navigator.canShare && navigator.canShare()) {
+        return`${title}\n\n${hintsText}\n\n${guessesText}\n\nScore: ${props.score}\n\n${url}`;
+    }
+
+    const share = () => {
+        
+        if (navigator.share) {
             navigator.share({
-                text: fullText,
+                text: getShareText(),
             })
         }
-        else {
-            navigator.clipboard.writeText(fullText);
-            setCopied(true);
-        }
+        else copy();
+    }
+
+    const copy = () => {
+        navigator.clipboard.writeText(getShareText());
+        setCopied(true);
     }
     
     return <Modal className={styles.modal} overlayClassName={styles.overlay} isOpen={props.isOpen}>
@@ -66,6 +72,8 @@ export const EndScreen = (props: EndScreenProps) => {
                     Share&nbsp;
                     <Image src="/share_icon_2.png" width="20px" height="20px" alt="share"/>
                 </button>
+                &nbsp;Or&nbsp;
+                <button onClick={copy}>Copy</button>
                 {copied ? <div className={styles.copied}>Copied &#10003;</div> : <></>}
             </div>
             <button className={styles.more} onClick={playMore}>Play More?</button>
