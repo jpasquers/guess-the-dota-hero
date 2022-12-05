@@ -28,7 +28,9 @@ export const SubmitGuess = ({ submit, score }: SubmitGuessProps) => {
 
     let [selected, setSelected] = useState<number|undefined>(undefined);
     
-    let options = heroes.map(hero => ({
+    let options = heroes.sort(
+        (heroA, heroB) => heroA.localized_name.localeCompare(heroB.localized_name)
+    ).map(hero => ({
         searchKey: hero.localized_name,
         label: <HeroTag hero={hero} textClazz={style.guessOptiontext}/>,
         value: hero.id
