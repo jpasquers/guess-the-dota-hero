@@ -15,6 +15,12 @@ export interface HeroLogoProps {
     width?: string;
 }
 
+export const getHeroIconSrc = (hero: Hero) => {
+    return `
+    https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/${hero.name}.png
+    `;
+}
+
 export const HeroTag = ({ hero, textClazz }: HeroTagProps) => {
     return <div className={styles.heroCard}>
         <HeroLogo hero={hero} customClass={styles.heroCardLogo}/> 
@@ -24,12 +30,13 @@ export const HeroTag = ({ hero, textClazz }: HeroTagProps) => {
 
 export const HeroLogo = ({ hero, customClass, height, width }: HeroLogoProps) => {
     return (
-        <Image
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
             className="hero-logo"
             width={width ?? "25px"}
             height={height ?? "25px"}
             alt=""
-            src={`/heroes/icons/${hero.name}.png`}
-        ></Image>
+            src={getHeroIconSrc(hero)}
+        ></img>
     );
 };

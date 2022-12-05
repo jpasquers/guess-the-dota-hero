@@ -18,6 +18,12 @@ export interface EndScreenProps {
     setIsOpen: (x: boolean) => void;
 }
 
+export const getHeroImageSrc = (hero: Hero) => {
+    return `
+    https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/${hero.name}.png
+    `;
+}
+
 export const EndScreen = (props: EndScreenProps) => {
     const [copied, setCopied] = useState(false);
     const playMore = () => {
@@ -56,14 +62,15 @@ export const EndScreen = (props: EndScreenProps) => {
         <div className={styles.contentContainer}>
             <div className={styles.congrats}>{props.score > 0 ? "Congratulations!" : "Ooooof"}</div>
             <div className={styles.hero}>
-                <Image
+                {/*eslint-disable-next-line @next/next/no-img-element*/}
+                <img
                     className={styles.heroImg}
                     width="400px"
                     height="200px"
                     alt=""
-                    src={`/heroes/${props.instance.hero.name}.png`}
+                    src={getHeroImageSrc(props.instance.hero)}
                 >
-                </Image>
+                </img>
                 <div className={styles.heroName}>{props.instance.hero.localized_name}</div>
             </div>
             <div className={styles.score}>Your Score: {props.score}</div>
