@@ -6,7 +6,6 @@ import ReactTyped from "react-typed";
 
 export interface HintsProps {
     hints: Hint[];
-    totalCount: number;
     unlockHint: (idx) => void;
     cost: number;
 }
